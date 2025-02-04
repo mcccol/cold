@@ -9,7 +9,8 @@ LDFLAGS = -ggdb
 LIBS = /usr/src/pgp26/libpgp.a
 
 COLDO = crypt.o order.o
-OBJS =	genprime.o mpilib.o rsa.o random.o idea.o md5.o 80386.o
+OBJS =	genprime.o mpilib.o rsa.o random.o idea.o md5.o
+#80386.o
 DOBJS = mpiio.o 
 
 all:    crypt.a $(COLDO)

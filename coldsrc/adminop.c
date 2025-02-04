@@ -30,8 +30,8 @@
 extern pid_t vfork(void);
 #endif
 
-extern char *sys_errlist[];
-#define strerror(n) (sys_errlist[n])
+//extern char *sys_errlist[];
+//#define strerror(n) (sys_errlist[n])
 
 extern int running;
 extern long heartbeat_freq, db_top;

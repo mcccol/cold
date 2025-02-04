@@ -2,6 +2,8 @@
 
 #define _POSIX_SOURCE
 
+#include <stdlib.h>
+#include <string.h>
 #include <ctype.h>
 #include "x.tab.h"
 #include "opcodes.h"

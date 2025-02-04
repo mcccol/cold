@@ -1,7 +1,14 @@
 /* usuals.h - The usual typedefs, etc.
 */
+#include <string.h>
+
 #ifndef USUALS /* Assures no redefinitions of usual types...*/
 #define USUALS
+
+// threw in some quick typedefs to quiet down this old code
+typedef unsigned int uint;
+typedef unsigned char uchar;
+typedef unsigned char u_char;
 
 typedef unsigned char boolean;	/* values are TRUE or FALSE */
 typedef unsigned char byte;	/* values are 0-255 */

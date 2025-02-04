@@ -10,6 +10,7 @@ typedef struct vmstate VMState;
 typedef struct vmstack VMStack;
 
 #include <sys/types.h>
+#include <stdlib.h>
 #include <stdarg.h>
 #include "data.h"
 #include "object.h"
@@ -94,7 +95,7 @@ extern String *numargs_str;
 extern long task_id;
 extern long tick;
 extern VMState *paused;
-extern opcode_restart;	/* one-shot signalling successful return from object error-handler */
+extern int opcode_restart;	/* one-shot signalling successful return from object error-handler */
 
 void init_execute(void);
 long task(Connection *conn, Dbref dbref, long message, int num_args, ...);

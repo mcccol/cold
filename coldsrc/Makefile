@@ -4,7 +4,8 @@ YFLAGS = -d
 
 #CC = checkergcc
 #CC = gcc
-CFLAGS = -Wall  -O2 -ggdb -DRSACRYPT -DNPROFILE
+CFLAGS = -Wall  -O2 -ggdb
+#CFLAGS = -Wall  -O2 -ggdb -DRSACRYPT -DNPROFILE
 #CFLAGS = -Wall  -O2 -ggdb -DRSACRYPT -DNDEBUG
 #CFLAGS = -Wall  -O2 -ggdb -DRSACRYPT -DIDENT_DEBUG
 #CFLAGS = -Wall  -O2 -ggdb -DRSACRYPT -DMEMSPY -DMEMSPYLINE
@@ -32,8 +33,8 @@ OBJS =	grammar.o adminop.o arithop.o buffer.o bufferop.o cache.o codegen.o \
 
 OBJS1 = regexp.o grammar.o 
 
-OBJSCRYPT = crypt/crypt.o crypt/order.o crypt/crypt.a
-#OBJSCRYPT =
+#OBJSCRYPT = crypt/crypt.o crypt/order.o crypt/crypt.a
+OBJSCRYPT = -lcrypt
 
 all:    linux
 
@@ -52,7 +53,7 @@ solaris:
 	$(MAKE) LIBS="-lsocket -lnsl -lelf" $(EXE)
 
 linux:
-	$(MAKE) LIBS="-ldbm" $(EXE)
+	$(MAKE) LIBS="-lgdbm -lgdbm_compat" $(EXE)
 #	$(MAKE) LIBS="" $(EXE)
 
 #checker:

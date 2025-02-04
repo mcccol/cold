@@ -90,7 +90,7 @@ extern Pile *compiler_pile;	/* We free this pile after compilation. */
 %token SET_LOCAL SET_OBJ_VAR GET_LOCAL GET_OBJ_VAR CATCH_END HANDLER_END
 %token CRITICAL CRITICAL_END PROPAGATE PROPAGATE_END JUMP
 
-%token BITAND, BITOR, BITSHIFT
+%token BITAND BITOR BITSHIFT
 %token TYPE CLASS TOINT TOSTR TOLITERAL TODBREF TOSYM TOERR VALID
 %token STRLEN SUBSTR EXPLODE STRSUB PAD MATCH_BEGIN MATCH_TEMPLATE
 %token MATCH_PATTERN MATCH_REGEXP CRYPT UPPERCASE LOWERCASE STRCMP
@@ -113,7 +113,7 @@ extern Pile *compiler_pile;	/* We free this pile after compilation. */
 %token MKRSA ENRSA ENIDEA DEIDEA MD5
 
 /* Reserved for future use. */
-%token FORK ATOMIC NON_ATOMIC
+%token ATOMIC NON_ATOMIC
 
 /* LAST_TOKEN tells opcodes.c how much space to allocate for the opcodes
  * table. */

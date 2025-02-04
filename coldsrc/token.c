@@ -15,7 +15,7 @@ static char *string_token(char *s, int len, int *token_len);
 static char *identifier_token(char *s, int len, int *token_len);
 
 static List *code;
-static cur_line, cur_pos;
+static int cur_line, cur_pos;
 
 /* Words with same first letters must be together. */
 static struct {

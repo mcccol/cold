@@ -89,12 +89,12 @@ void pop(int n)
 
 void check_stack(int n)
 {
-  Data *olds;
-    while (stack_pos + n > stack_size) {
-	stack_size = stack_size * 2 + STACK_MALLOC_DELTA;
-	olds = stack;
-	stack = EREALLOC(stack, Data, stack_size);
-    }
+  Data *olds = NULL;
+  while (stack_pos + n > stack_size) {
+      stack_size = stack_size * 2 + STACK_MALLOC_DELTA;
+      olds = stack;
+      stack = EREALLOC(stack, Data, stack_size);
+  }
 }
 
 void push_data(Data *d)
@@ -944,7 +944,7 @@ void propagate_error(List *traceback, Ident error)
 	  pop(stack_pos - spec->stack_pos);
 
 	  /* Pop this error spec, discard the traceback */
-#ifdef 0
+#ifdef notdef
 	  /* CMC - one too many was popped */
 	  pop_error_action_specifier();
 #endif

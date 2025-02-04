@@ -12,6 +12,7 @@
 #include <unistd.h>
 #include <stdarg.h>
 #include <fcntl.h>
+#include <crypt.h>
 #include "x.tab.h"
 #include "util.h"
 #include "cmstring.h"
