@@ -1,0 +1,1341 @@
+
+connect Colin kforget
+Trying 204.50.138.3...
+Connected to home.interhop.net.
+Escape character is '^]'.
+* * * Welcome to Absolute Zero * * *
+
+"In capitalist society, hypocrisy and cynicism have now lost all sense of proportion and are becoming more outrageous every day .... in this atmosphere, thought cannot consider the exterior world without a sudden shiver. " -- Andre Breton
+
+Running coldMUD 0.12
+
+Chilled well and served by Chaos, Karl, Quantum-Vacuum, etc.
+
+To connect type: "connect (User) (Password)", or "create (User) (Password)"...
+* * * Connected * * *
+GroundZero
+The sky meets the earth, muddly-black-brown and hazy-blue-grey.  To the horizon stretches a desert of lifeless earth.  Below you is a ladder leading down into the depths.
+You can see a news.
+Last connected from sydney69.world.net, Wed Nov  6 00:24:05 1996
+>@who
+@who
+User Name          On For Idle
+Colin               01:56  0s
+One user logged in.
+>@who
+@who
+User Name          On For Idle
+Colin               06:00  0s
+One user logged in.
+
+>@quit
+@quit
+Connection closed by foreign host.
+
+Process KarlMOO exited abnormally with code 1
+>connect Colin kforget
+Trying 204.50.138.3...
+Connected to home.interhop.net.
+Escape character is '^]'.
+* * * Welcome to Absolute Zero * * *
+
+"In capitalist society, hypocrisy and cynicism have now lost all sense of proportion and are becoming more outrageous every day .... in this atmosphere, thought cannot consider the exterior world without a sudden shiver. " -- Andre Breton
+
+Running coldMUD 0.12
+
+Chilled well and served by Chaos, Karl, Quantum-Vacuum, etc.
+
+To connect type: "connect (User) (Password)", or "create (User) (Password)"...
+* * * Connected * * *
+GroundZero
+The sky meets the earth, muddly-black-brown and hazy-blue-grey.  To the horizon stretches a desert of lifeless earth.  Below you is a ladder leading down into the depths.
+You can see a news.
+Last connected from sydney42.world.net, Wed Nov  6 04:33:04 1996
+>@who
+@who
+User Name          On For Idle
+Karl                04:49  4h
+Colin               01:13  0s
+2 users logged in.
+>@at Karl
+@at Karl
+I don't understand that.
+>;$karl.location()
+;$karl.location()
+Error: ~namenf, Can't find object name karl.
+Thrown by opcode NAME.
+(~namenf in $colin.tmp_eval_456532_52982473(), defined on $colin, line 1)
+(~methoderr in $colin.eval(), defined on $root, line 22)
+(~methoderr in $colin.eval_cmd(), defined on $programmer, line 28)
+(~methoderr in $colin.parse_command(), defined on $user, line 10)
+(~methoderr in $colin.parse_command(), defined on $programmer, line 12)
+>;$Karl.location()
+
+;$Karl.location()
+Error: ~namenf, Can't find object name Karl.
+Thrown by opcode NAME.
+(~namenf in $colin.tmp_eval_456535_52984752(), defined on $colin, line 1)
+(~methoderr in $colin.eval(), defined on $root, line 22)
+(~methoderr in $colin.eval_cmd(), defined on $programmer, line 28)
+(~methoderr in $colin.parse_command(), defined on $user, line 10)
+(~methoderr in $colin.parse_command(), defined on $programmer, line 12)
+>'karl Answer the email!
+'karl Answer the email!
+You page "Answer the email!" to Karl.
+>'karl I'm hanging around wondering whether to make the suggested change.
+'karl I'm hanging around wondering whether to make the suggested change.
+You page "I'm hanging around wondering whether to make the suggested change." to Karl.
+>@who
+@who
+User Name          On For Idle
+Karl                04:58  4h
+Colin               01:22  0s
+2 users logged in.
+
+Process KarlMOO killed
+>
+connect Colin kforget
+Trying 204.50.138.3...
+Connected to home.interhop.net.
+Escape character is '^]'.
+* * * Welcome to Absolute Zero * * *
+
+"In capitalist society, hypocrisy and cynicism have now lost all sense of proportion and are becoming more outrageous every day .... in this atmosphere, thought cannot consider the exterior world without a sudden shiver. " -- Andre Breton
+
+Running coldMUD 0.12
+
+Chilled well and served by Chaos, Karl, Quantum-Vacuum, etc.
+
+To connect type: "connect (User) (Password)", or "create (User) (Password)"...
+* * * Connected * * *
+GroundZero
+The sky meets the earth, muddly-black-brown and hazy-blue-grey.  To the horizon stretches a desert of lifeless earth.  Below you is a ladder leading down into the depths.
+You can see a news.
+Last connected from sydney42.world.net, Wed Nov  6 14:27:12 1996
+>@who
+@who
+User Name          On For Idle
+Karl                05:42  5h
+Colin               00:32  0s
+2 users logged in.
+
+Process KarlMOO killed
+>
+connect Colin kforget
+Trying 204.50.138.3...
+Connected to home.interhop.net.
+Escape character is '^]'.
+* * * Welcome to Absolute Zero * * *
+
+"In capitalist society, hypocrisy and cynicism have now lost all sense of proportion and are becoming more outrageous every day .... in this atmosphere, thought cannot consider the exterior world without a sudden shiver. " -- Andre Breton
+
+Running coldMUD 0.12
+
+Chilled well and served by Chaos, Karl, Quantum-Vacuum, etc.
+
+To connect type: "connect (User) (Password)", or "create (User) (Password)"...
+* * * Connected * * *
+GroundZero
+The sky meets the earth, muddly-black-brown and hazy-blue-grey.  To the horizon stretches a desert of lifeless earth.  Below you is a ladder leading down into the depths.
+Karl and Chaos are here.
+You can see a news.
+Last connected from sydney42.world.net, Wed Nov  6 16:00:58 1996
+>:waves, G'Day Tovarich+plural.
+:waves, G'Day Tovarich+plural.
+Colin waves, G'Day Tovarich+plural.
+>@who
+@who
+User Name          On For Idle
+Karl                06:41 19m
+Chaos               00:34 30m
+Colin               00:00  0s
+3 users logged in.
+>"Gad, Paul has made some salient points.
+"Gad, Paul has made some salient points.
+You say, "Gad, Paul has made some salient points."
+>"It's harder to ride roughshod over those.
+"It's harder to ride roughshod over those.
+You say, "It's harder to ride roughshod over those."
+Karl eyes Colin warily.
+>"Wha?
+"Wha?
+You say, "Wha?"
+Paul has connected.
+>:replying to Paul's last.
+:replying to Paul's last.
+Colin replying to Paul's last.
+Paul says, "Hi"
+Karl says, "hi Paul"
+Karl says, "are you one of the trusted?"
+Karl huddles in his cloak.
+>:trusts NOBODY!
+:trusts NOBODY!
+Colin trusts NOBODY!
+Karl says, "oops, I forgot"
+>"In fact, I'm not even authorised to reveal that fact to you!
+"In fact, I'm not even authorised to reveal that fact to you!
+You say, "In fact, I'm not even authorised to reveal that fact to you!"
+Karl offers that tidbit to Jay for $6000.
+:| (e) Ken is a wizard on JaysHive.  I get this, from JaysHive:
+:| connect guest
+:| Sorry, guest characters are not allowed from your site.  Send email to jhm-registration@ccs.neu.edu to request a character.
+:| 
+:| Ken, equally, is free to email coldstuff-request@field(etc) and request registration on the closed list.
+:| 
+:| I don't see any material difference between the policy of the MUD Ken frequents/runs, and the mailing list I frequent/run... can you articulate such a material difference?
+
+Colin | (e) Ken is a wizard on JaysHive.  I get this, from JaysHive:
+>
+
+>@who
+@who
+Colin | connect guest
+Colin | Sorry, guest characters are not allowed from your site.  Send email to jhm-registration@ccs.neu.edu to request a character.
+Colin | 
+Colin | Ken, equally, is free to email coldstuff-request@field(etc) and request registration on the closed list.
+Colin | 
+Colin | I don't see any material difference between the policy of the MUD Ken frequents/runs, and the mailing list I frequent/run... can you articulate such a material difference?
+User Name          On For Idle
+Karl                06:53 56s
+Chaos               00:46 43m
+Colin               00:13  0s
+Paul                00:03  3m
+4 users logged in.
+>::'s open to logical arguments that JaysHive is justified in excluding him, while he is not similarly justified.
+::'s open to logical arguments that JaysHive is justified in excluding him, while he is not similarly justified.
+Colin's open to logical arguments that JaysHive is justified in excluding him, while he is not similarly justified.
+>"In fact, I'd find 'em highly entertaining.
+"In fact, I'd find 'em highly entertaining.
+Karl says, "what pisses me off Colin, is your inability to a) present to Jordan a simple question or concern -- who is Ken, and/or can you please notify me of who is on or off the list b) the fact that you provide no discussion of protocol or purpose for these things -- you come across as an irrational paranoid..."
+You say, "In fact, I'd find 'em highly entertaining."
+>"Ken's Xythian.
+"Ken's Xythian.
+You say, "Ken's Xythian."
+>"All paranoia's irrational, by definition.
+"All paranoia's irrational, by definition.
+You say, "All paranoia's irrational, by definition."
+Karl says, "I already told you that."
+>"Then again, so is most perception (q.v. `come across as')
+"Then again, so is most perception (q.v. `come across as')
+You say, "Then again, so is most perception (q.v. `come across as')"
+>"pre-rational, at least.
+"pre-rational, at least.
+You say, "pre-rational, at least."
+>"I discussed it with Jordan.
+"I discussed it with Jordan.
+You say, "I discussed it with Jordan."
+>"That was (a).
+"That was (a).
+You say, "That was (a)."
+>"(a1) My protocol is more efficient - I needn't engage Jordan in per-new-user discussion.
+"(a1) My protocol is more efficient - I needn't engage Jordan in per-new-user discussion.
+You say, "(a1) My protocol is more efficient - I needn't engage Jordan in per-new-user discussion."
+>"(b) I'm sorry if I appear, to you, to have acted precipitantly.  I'm perfectly willing to discuss my actions, in a protocol or other context.  And I honestly thought I had discussed it with y'all.
+"(b) I'm sorry if I appear, to you, to have acted precipitantly.  I'm perfectly willing to discuss my actions, in a protocol or other context.  And I honestly thought I had discussed it with y'all.
+You say, "(b) I'm sorry if I appear, to you, to have acted precipitantly.  I'm perfectly willing to discuss my actions, in a protocol or other context.  And I honestly thought I had discussed it with y'all."
+>"Or even to have acted in an `irrationally paranoid' manner.
+"Or even to have acted in an `irrationally paranoid' manner.
+You say, "Or even to have acted in an `irrationally paranoid' manner."
+>"Such wasn't my intent.
+"Such wasn't my intent.
+You say, "Such wasn't my intent."
+>"Possibly I'm loathe to speak in a forum in which I'm automatically presumed to be acting in an irrationally paranoid manner, and therefore come across as paranoid.
+"Possibly I'm loathe to speak in a forum in which I'm automatically presumed to be acting in an irrationally paranoid manner, and therefore come across as paranoid.
+You say, "Possibly I'm loathe to speak in a forum in which I'm automatically presumed to be acting in an irrationally paranoid manner, and therefore come across as paranoid."
+>"Such a forum as JaysHive, or Brandon's clique... I've been called paranoid (or worse) in both.  It's orthogonal to effective performance of the task at hand.
+"Such a forum as JaysHive, or Brandon's clique... I've been called paranoid (or worse) in both.  It's orthogonal to effective performance of the task at hand.
+You say, "Such a forum as JaysHive, or Brandon's clique... I've been called paranoid (or worse) in both.  It's orthogonal to effective performance of the task at hand."
+>"And now I'm `paranoid' here, too.  Gets kinda wearing.
+"And now I'm `paranoid' here, too.  Gets kinda wearing.
+You say, "And now I'm `paranoid' here, too.  Gets kinda wearing."
+>"No comment?
+"No comment?
+You say, "No comment?"
+Paul says, "I don't consider you truly paranoid. You've backed up your actions."
+>:is a bit of a casual student of DSM-3 and similar.  I'm not paranoiac.
+:is a bit of a casual student of DSM-3 and similar.  I'm not paranoiac.
+Colin is a bit of a casual student of DSM-3 and similar.  I'm not paranoiac.
+Paul says, "DSM-3?"
+>"Diagnostic Statistical Manual 3.
+"Diagnostic Statistical Manual 3.
+You say, "Diagnostic Statistical Manual 3."
+>"It's got the definitions of all the terms so readily bandied about in attempts to control and modulate social behavior.
+"It's got the definitions of all the terms so readily bandied about in attempts to control and modulate social behavior.
+You say, "It's got the definitions of all the terms so readily bandied about in attempts to control and modulate social behavior."
+Karl is just tired of trying to do things and having to worry about everybody's ego bruising.
+>"Whose ego's bruised?
+"Whose ego's bruised?
+You say, "Whose ego's bruised?"
+Karl has disconnected.
+>"I hadn't intended to hurt the folks I was excluding.  I didn't even post the fact that I wasn't talking to them in a place they could read.
+"I hadn't intended to hurt the folks I was excluding.  I didn't even post the fact that I wasn't talking to them in a place they could read.
+You say, "I hadn't intended to hurt the folks I was excluding.  I didn't even post the fact that I wasn't talking to them in a place they could read."
+>"And if they ever log on here, I'm sure I'll be polite.
+"And if they ever log on here, I'm sure I'll be polite.
+You say, "And if they ever log on here, I'm sure I'll be polite."
+>"And if they ever say anything to which I feel moved to reply, I'll probably do so politely on Jordan's list.
+"And if they ever say anything to which I feel moved to reply, I'll probably do so politely on Jordan's list.
+You say, "And if they ever say anything to which I feel moved to reply, I'll probably do so politely on Jordan's list."
+>:laughs!
+:laughs!
+Colin laughs!
+:| Jay's House MOO @who listing
+:| 
+:| Name             Connected    Idle time    Location
+:| ----             ---------    ---------    --------
+
+Colin | Jay's House MOO @who listing
+Colin | 
+Colin | Name             Connected    Idle time    Location
+Colin | ----             ---------    ---------    --------
+I don't understand that.
+>:| Canadian guest   9 minutes    13 seconds   Patio
+:| Canadian guest   9 minutes    13 seconds   Patio
+Colin | Canadian guest   9 minutes    13 seconds   Patio
+>"Who's paranoid?
+"Who's paranoid?
+You say, "Who's paranoid?"
+>@methods $user_db
+@methods $user_db
+Methods:
+  connected_users()                       : 1
+  find_user(name)                         : 12
+  remove_user(user)                       : 3
+  user_changed_name(old_name)             : 4
+  user_connected()                        : 3
+  user_created()                          : 5
+  user_disconnected()                     : 3
+  user_going_away()                       : 7
+  users()                                 : 1
+>;$user_db.find_user("Karl")
+;$user_db.find_user("Karl")
+--> $user_karl
+[Ticks: 310, seconds: 0]
+>@show $user_karl
+@show $user_karl
+Parents: [$wiz_utils, $dev_cmds, $admin]
+Methods:
+$programmer variables:
+  programming: 0
+  program_buf: 0
+$builder variables:
+  editors: [$object_editor]
+  editor: $editor_12
+$user variables:
+  password: "q4W5Y366QtbLw"
+  doing: ""
+  connections: []
+  connected_at: 847295472
+  connected_from: "207.112.16.195"
+  last_command_at: 847321063
+  last_read_news: 846869865
+$located variables:
+  location: $groundzero
+$container variables:
+  contents: []
+$named variables:
+  vr_name: "Karl"
+  name_aliases: ["Karl", "kp"]
+$described variables:
+  description: "You see nothing special."
+$has_verbs variables:
+  verbs: #[]
+$has_commands variables:
+  commands: []
+  shortcuts: []
+$root variables:
+  names: ['user_karl]
+  child_index: 0
+  owners: [$user_karl]
+  fertile: 0
+  inited: 1
+>@show $user_chaos
+@show $user_chaos
+I don't see "$user_chaos" here.
+>;$user_db.find_user("Chaos")
+;$user_db.find_user("Chaos")
+--> $chaos
+[Ticks: 310, seconds: 0]
+>@show $chaos
+@show $chaos
+Parents: [$admin, $wiz_utils, $dev_cmds]
+Methods:
+  doit(), 6 lines
+  foo(), 2 lines
+$programmer variables:
+  programming: 0
+  program_buf: 0
+  arg_var_values: [[$code, 'sender], ['location]]
+$builder variables:
+  editors: [$text_editor]
+  editor: $editor_11
+$user variables:
+  password: "cmIrawYaQ5mPk"
+  doing: "goo"
+  connections: [$connection_1216]
+  last_command_at: 847317693
+  ticks_per_command: 2024
+  connected_from: "204.187.145.80"
+  connected_at: 847317487
+  last_read_news: 845660902
+$located variables:
+  location: $groundzero
+$container variables:
+  contents: []
+$named variables:
+  vr_name: "Chaos"
+  name_aliases: []
+$described variables:
+  description: "The nicest guy you'll ever meet!  Just ask Karl!"
+$has_verbs variables:
+  verbs: #[]
+$has_commands variables:
+  commands: []
+  shortcuts: []
+$root variables:
+  name: 'chaos
+  child_index: 0
+  owners: [$chaos]
+  fertile: 0
+  public: 1
+  inited: 1
+  names: ['chaos]
+>@show $user_paul
+@show $user_paul
+Parents: [$programmer]
+Methods:
+$programmer variables:
+  programming: 0
+  program_buf: 0
+$builder variables:
+  editors: [$object_editor]
+$user variables:
+  password: "e$trSwo8VkL06"
+  doing: ""
+  connections: [$connection_1218]
+  connected_at: 847320079
+  connected_from: "199.111.8.221"
+  last_command_at: 847321009
+  last_read_news: 845410471
+$located variables:
+  location: $groundzero
+$container variables:
+  contents: []
+$named variables:
+  vr_name: "Paul"
+  name_aliases: []
+$described variables:
+  description: "Mole."
+$has_verbs variables:
+  verbs: #[]
+$has_commands variables:
+  commands: []
+  shortcuts: []
+$root variables:
+  names: ['user_paul]
+  child_index: 0
+  owners: [$user_paul]
+  fertile: 0
+  inited: 1
+>@who
+@who
+User Name          On For Idle
+Chaos               01:07  1h
+Colin               00:33  0s
+Paul                00:24  8m
+3 users logged in.
+>;$user_db.find_user("QuantumVacuum")
+;$user_db.find_user("QuantumVacuum")
+Error: ~usernf, User name QuantumVacuum not found.
+Thrown by method $user_db.find_user(), defined on $user_db, line 8.
+(~usernf in $colin.tmp_eval_458343_53316836(), defined on $colin, line 1)
+(~methoderr in $colin.eval(), defined on $root, line 22)
+(~methoderr in $colin.eval_cmd(), defined on $programmer, line 28)
+(~methoderr in $colin.parse_command(), defined on $user, line 10)
+(~methoderr in $colin.parse_command(), defined on $programmer, line 12)
+>;$user_db.find_user("Quantum_Vacuum")
+
+Error: ~usernf, User name Quantum_Vacuum not found.
+Thrown by method $user_db.find_user(), defined on $user_db, line 8.
+(~usernf in $colin.tmp_eval_458345_53319197(), defined on $colin, line 1)
+(~methoderr in $colin.eval(), defined on $root, line 22)
+(~methoderr in $colin.eval_cmd(), defined on $programmer, line 28)
+(~methoderr in $colin.parse_command(), defined on $user, line 10)
+(~methoderr in $colin.parse_command(), defined on $programmer, line 12)
+>:ahz, a Canadian Guest is speaking with a person called Levi.  I guess we know who's ego is bruised, then.
+:ahz, a Canadian Guest is speaking with a person called Levi.  I guess we know who's ego is bruised, then.
+Colin ahz, a Canadian Guest is speaking with a person called Levi.  I guess we know who's ego is bruised, then.
+>"Amazing.  I've bruised Levi's ego without ever meeting or speaking to him, 
+"Amazing.  I've bruised Levi's ego without ever meeting or speaking to him, 
+You say, "Amazing.  I've bruised Levi's ego without ever meeting or speaking to him, "
+>`paul who're you, Phaedrus?
+`paul who're you, Phaedrus?
+Colin [to Paul]: who're you, Phaedrus?
+>"OK, here are my current operant assumptions:  A canadian Guest, possibly Karl, logged in to JaysHive to talk to Levi, possibly in relation to what we've been discussing here.
+"OK, here are my current operant assumptions:  A canadian Guest, possibly Karl, logged in to JaysHive to talk to Levi, possibly in relation to what we've been discussing here.
+You say, "OK, here are my current operant assumptions:  A canadian Guest, possibly Karl, logged in to JaysHive to talk to Levi, possibly in relation to what we've been discussing here."
+>"If this is the case, I'd like to point out that I was excluded from that discussion, in that it was conducted on a mud to which it is known I cannot connect.
+"If this is the case, I'd like to point out that I was excluded from that discussion, in that it was conducted on a mud to which it is known I cannot connect.
+You say, "If this is the case, I'd like to point out that I was excluded from that discussion, in that it was conducted on a mud to which it is known I cannot connect."
+>"While Levi has an account right here.
+"While Levi has an account right here.
+You say, "While Levi has an account right here."
+>@who
+@who
+User Name          On For Idle
+Chaos               01:21  1h
+Colin               00:47  0s
+Paul                00:38 22m
+3 users logged in.
+>@who Levi
+@who Levi
+I don't understand that.
+>;$user_db.find_user("Levi")
+;$user_db.find_user("Levi")
+--> $user_levi
+[Ticks: 310, seconds: 0]
+>:shrugs, my operant assumptions have been clearly stated.  I'll proceed on the basis of them, as my best guess as to what the hell's going on, in the (likely) absence of feedback.
+:shrugs, my operant assumptions have been clearly stated.  I'll proceed on the basis of them, as my best guess as to what the hell's going on, in the (likely) absence of feedback.
+Colin shrugs, my operant assumptions have been clearly stated.  I'll proceed on the basis of them, as my best guess as to what the hell's going on, in the (likely) absence of feedback.
+>"likely and lamentable.
+"likely and lamentable.
+You say, "likely and lamentable."
+Paul was eating.
+Paul is not Phaedrus; is Ralph.
+>:nods.
+:nods.
+Colin nods.
+>"Thank you.
+"Thank you.
+You say, "Thank you."
+Paul | Eir nametag indicates that e has logged in from pma11.comnet.ca.
+Paul says, "doesn't look like Karl"
+>"So, on the face of it, the Stoooory so far:  two people join a list, say nothing, kibbitzing.  I decline to speak in their presence, and I'm a bad guy because of it.  Someone (unspecified) has a bruised ego, and I've contributed to that somehow (unspecified).  This pisses Karl off, because ``Karl is just tired of trying to do things and having to worry about everybody's ego bruising.'' ...
+"So, on the face of it, the Stoooory so far:  two people join a list, say nothing, kibbitzing.  I decline to speak in their presence, and I'm a bad guy because of it.  Someone (unspecified) has a bruised ego, and I've contributed to that somehow (unspecified).  This pisses Karl off, because ``Karl is just tired of trying to do things and having to worry about everybody's ego bruising.'' ...
+You say, "So, on the face of it, the Stoooory so far:  two people join a list, say nothing, kibbitzing.  I decline to speak in their presence, and I'm a bad guy because of it.  Someone (unspecified) has a bruised ego, and I've contributed to that somehow (unspecified).  This pisses Karl off, because ``Karl is just tired of trying to do things and having to worry about everybody's ego bruising.'' ..."
+>"My only question arising from all this is:  `trying to do what?'
+"My only question arising from all this is:  `trying to do what?'
+You say, "My only question arising from all this is:  `trying to do what?'"
+>:nods Paul.  An amazing coincidence.
+:nods Paul.  An amazing coincidence.
+Colin nods Paul.  An amazing coincidence.
+Paul says, "Yeah. Not too many people in Canada."
+>"Not too many connected to the net who might wish to speak with Levi.
+"Not too many connected to the net who might wish to speak with Levi.
+You say, "Not too many connected to the net who might wish to speak with Levi."
+>"The guest walked straight to the living room, and engaged in conversation with Levi.
+"The guest walked straight to the living room, and engaged in conversation with Levi.
+You say, "The guest walked straight to the living room, and engaged in conversation with Levi."
+>::'s presuming here that Levi@JaysHive == levip@wolfenet.com
+::'s presuming here that Levi@JaysHive == levip@wolfenet.com
+Colin's presuming here that Levi@JaysHive == levip@wolfenet.com
+>"Who lives in Ottowa?
+"Who lives in Ottowa?
+You say, "Who lives in Ottowa?"
+Paul says, "Not too many Levis."
+>"Ottawa :)
+"Ottawa :)
+You say, "Ottawa :)"
+Paul says, "Um.."
+Quantum-Vacuum has connected.
+Quantum-Vacuum waves
+Paul says, "QV"
+>"G'Day QV!
+"G'Day QV!
+You say, "G'Day QV!"
+Quantum-Vacuum [to Colin]: why don't you rethink frobs completely... I'd like to have data abstraction with frobs too...
+>`quantum-vacuum because my brain hurts.
+`quantum-vacuum because my brain hurts.
+Colin [to Quantum-Vacuum]: because my brain hurts.
+Quantum-Vacuum chuckles
+>"Where the hell +is+ Ottawa, anyway?
+"Where the hell +is+ Ottawa, anyway?
+You say, "Where the hell +is+ Ottawa, anyway?"
+>"near the great lakes?
+"near the great lakes?
+You say, "near the great lakes?"
+Paul says, "Yes"
+>:nods, Karl wouldn't be too far from there, would he.
+:nods, Karl wouldn't be too far from there, would he.
+Colin nods, Karl wouldn't be too far from there, would he.
+Paul says, "down and in the middle of Ontario"
+Quantum-Vacuum says, "not that close to the Great Lakes"
+Paul says, "I think"
+Quantum-Vacuum says, "it is very close to the Quebec/Ontario border, on the banks of the Outaouais river."
+Paul looks at a map
+Quantum-Vacuum says, "not Ottawa and Outaouais were transliterated from the same indian word."
+Quantum-Vacuum says, "s/not/note"
+Quantum-Vacuum doesn't remember what it means.
+Paul says, "looks like southeast, really"
+>"Doesn't matter... my paranoia has subsided.
+"Doesn't matter... my paranoia has subsided.
+You say, "Doesn't matter... my paranoia has subsided."
+Paul says, "where is Karl?"
+>"He logged off immediately before Canadian_Guest connected on JaysHive.
+"He logged off immediately before Canadian_Guest connected on JaysHive.
+You say, "He logged off immediately before Canadian_Guest connected on JaysHive."
+Paul says, "no, geographically"
+>"Near the great lakes.
+"Near the great lakes.
+You say, "Near the great lakes."
+>"In Ottawa, at a near guess.
+"In Ottawa, at a near guess.
+You say, "In Ottawa, at a near guess."
+Quantum-Vacuum says, "In Toronto."
+>"Yeah, Toronto.
+"Yeah, Toronto.
+You say, "Yeah, Toronto."
+Paul says, "it's about 250 miles between Toronto and Ottawa"
+>"That boy can RUN!
+"That boy can RUN!
+You say, "That boy can RUN!"
+Paul nods
+>"Paul, I don't mind the idea of another state function so much.  There's no a-priori reason for passing frob rep as an argument.
+"Paul, I don't mind the idea of another state function so much.  There's no a-priori reason for passing frob rep as an argument.
+You say, "Paul, I don't mind the idea of another state function so much.  There's no a-priori reason for passing frob rep as an argument."
+Paul says, "it makes sense to me"
+Paul says, "frobs don't imply ANY state, but rather a transient data type"
+>"No compelling reason at all, except hysterical raisons.
+"No compelling reason at all, except hysterical raisons.
+You say, "No compelling reason at all, except hysterical raisons."
+>:thinks frobs imply precisely whatever they're used for.
+:thinks frobs imply precisely whatever they're used for.
+Colin thinks frobs imply precisely whatever they're used for.
+Paul says, "and there's another reason to change the frob name"
+Paul says, "non-overridable methods on $root"
+>"Hmm?
+"Hmm?
+Quantum-Vacuum says, "frobs are clean instances.... but without data abstraction."
+You say, "Hmm?"
+Paul says, "suppose you have, say, $root.name non-overridable"
+>:supposes thus.
+:supposes thus.
+Colin supposes thus.
+>"Then?
+"Then?
+You say, "Then?"
+Paul says, "that makes it impossible to do frob.name"
+Paul lags.
+>"To `do'?  `To redefine', not `to call'.
+"To `do'?  `To redefine', not `to call'.
+You say, "To `do'?  `To redefine', not `to call'."
+>"I guess one could create a class of objects which do not inherit from $root.
+"I guess one could create a class of objects which do not inherit from $root.
+You say, "I guess one could create a class of objects which do not inherit from $root."
+>"Or one could move the offensive $root functionality to $non-frob-root.
+"Or one could move the offensive $root functionality to $non-frob-root.
+You say, "Or one could move the offensive $root functionality to $non-frob-root."
+Paul says, "too much trouble to sideskirt the issue"
+Paul says, "there ARE two distinct functions of frob class object methods"
+>"The issue's the same with objects.  Is there anything special about frobs, in that?
+"The issue's the same with objects.  Is there anything special about frobs, in that?
+You say, "The issue's the same with objects.  Is there anything special about frobs, in that?"
+>"Or is it an issue with non-overridable?
+"Or is it an issue with non-overridable?
+You say, "Or is it an issue with non-overridable?"
+Paul says, "non-overridable just swells the welt"
+Paul says, "frob classes need to retain existance as objects"
+Paul says, "while providing possibly overlapping frob functionality"
+>"How is this distinct from what objects have to do?
+"How is this distinct from what objects have to do?
+You say, "How is this distinct from what objects have to do?"
+Paul says, "uh, the second part"
+>:doesn't grok `overlapping frob functionality' then.
+:doesn't grok `overlapping frob functionality' then.
+Colin doesn't grok `overlapping frob functionality' then.
+Paul says, "with a frob, you need to define a totally separate interface"
+>:ohz, this is an argument against having one name for one substantive funtion.
+:ohz, this is an argument against having one name for one substantive funtion.
+Colin ohz, this is an argument against having one name for one substantive funtion.
+Paul says, "so anything acting as a frob class is two-faced, really"
+>"Yes, one part of the method confers the quasi-object state, the other the method arguments.
+"Yes, one part of the method confers the quasi-object state, the other the method arguments.
+You say, "Yes, one part of the method confers the quasi-object state, the other the method arguments."
+>"I think it's a good idea to distinguish between the two conferring acts.
+"I think it's a good idea to distinguish between the two conferring acts.
+You say, "I think it's a good idea to distinguish between the two conferring acts."
+>"As is done in the calling syntax.
+"As is done in the calling syntax.
+You say, "As is done in the calling syntax."
+Paul says, "I don't understand 'one part of the method...'"
+>"One part of the argument list.
+"One part of the argument list.
+You say, "One part of the argument list."
+>"The first argument.
+"The first argument.
+You say, "The first argument."
+>"It functions entirely differently to the rest.
+"It functions entirely differently to the rest.
+You say, "It functions entirely differently to the rest."
+>:would argue that it is not truly an argument to the method, but rather a context in which the method is invoked.
+:would argue that it is not truly an argument to the method, but rather a context in which the method is invoked.
+Colin would argue that it is not truly an argument to the method, but rather a context in which the method is invoked.
+Paul says, "I can't tell if you're agree with me or disagreeing."
+>"I'll agree with you, or disagree with you, so long as arg1 as frob rep goes.
+"I'll agree with you, or disagree with you, so long as arg1 as frob rep goes.
+You say, "I'll agree with you, or disagree with you, so long as arg1 as frob rep goes."
+>::
+::
+Colin
+>::'s ambivalent as regards agreement on subsidiary matters :)
+::'s ambivalent as regards agreement on subsidiary matters :)
+Colin's ambivalent as regards agreement on subsidiary matters :)
+Paul says, "what about having frob calls map to new method names?"
+>`quantum-vacuum is this akin to your frobcall idea?
+`quantum-vacuum is this akin to your frobcall idea?
+Colin [to Quantum-Vacuum]: is this akin to your frobcall idea?
+>`paul QV suggested <$fred, rep>.method(args) -> $fred.frobcall('method, rep, @args) whatever.
+`paul QV suggested <$fred, rep>.method(args) -> $fred.frobcall('method, rep, @args) whatever.
+Colin [to Paul]: QV suggested <$fred, rep>.method(args) -> $fred.frobcall('method, rep, @args) whatever.
+>"it's easily done, but I'm not certain it's altogether advisable.
+"it's easily done, but I'm not certain it's altogether advisable.
+You say, "it's easily done, but I'm not certain it's altogether advisable."
+>:suggested a compromise, where calling a non-existent method on a frob mapped to .frobcall()
+:suggested a compromise, where calling a non-existent method on a frob mapped to .frobcall()
+Colin suggested a compromise, where calling a non-existent method on a frob mapped to .frobcall()
+>"However, one is still hit by the overhead of having to map in-core to what you actually want to call.
+"However, one is still hit by the overhead of having to map in-core to what you actually want to call.
+You say, "However, one is still hit by the overhead of having to map in-core to what you actually want to call."
+Quantum-Vacuum [to Colin]: you can get that behavior by having .frobcall pass when the method selector is unknown to the frob parent, and having $frobclass call the method thus named.
+>"Substantial overhead.
+"Substantial overhead.
+You say, "Substantial overhead."
+>"yeah yeah, `implementation detail' :)
+"yeah yeah, `implementation detail' :)
+You say, "yeah yeah, `implementation detail' :)"
+Quantum-Vacuum grins
+Quantum-Vacuum grins
+>"Let me drag back to the original issue, and ask Paul:  Why is the 1st argument an appropriate place for passing the quasi-state of a frob?
+"Let me drag back to the original issue, and ask Paul:  Why is the 1st argument an appropriate place for passing the quasi-state of a frob?
+You say, "Let me drag back to the original issue, and ask Paul:  Why is the 1st argument an appropriate place for passing the quasi-state of a frob?"
+Paul says, "That's a minor issue with me."
+>"So no real objection to the rep() passing of it?
+"So no real objection to the rep() passing of it?
+You say, "So no real objection to the rep() passing of it?"
+Paul says, "well"
+Paul says, "hm"
+Paul says, "give me an example of where you would use it?"
+>"Sure.  I'm going to change .perms() so they understand cookieperms.
+"Sure.  I'm going to change .perms() so they understand cookieperms.
+You say, "Sure.  I'm going to change .perms() so they understand cookieperms."
+>"Any method may be called according to its current .perms(), but will also pass in rep().
+"Any method may be called according to its current .perms(), but will also pass in rep().
+You say, "Any method may be called according to its current .perms(), but will also pass in rep()."
+>"Which permits the method to specify a set of cookieperms in addition to or alternative to the current object/sender/caller based perms.
+"Which permits the method to specify a set of cookieperms in addition to or alternative to the current object/sender/caller based perms.
+You say, "Which permits the method to specify a set of cookieperms in addition to or alternative to the current object/sender/caller based perms."
+>"Without modification to its interface.
+"Without modification to its interface.
+You say, "Without modification to its interface."
+>"Lots of methods need perms, not many need an extra argument.
+"Lots of methods need perms, not many need an extra argument.
+You say, "Lots of methods need perms, not many need an extra argument."
+>:thinks it'd be a massive uglification of code to pass in the extra arg.
+:thinks it'd be a massive uglification of code to pass in the extra arg.
+Colin thinks it'd be a massive uglification of code to pass in the extra arg.
+>`quantum-vacuum Oh, BTW, I have font-lock code for coldmud.
+`quantum-vacuum Oh, BTW, I have font-lock code for coldmud.
+Colin [to Quantum-Vacuum]: Oh, BTW, I have font-lock code for coldmud.
+Paul says, "I'm trying to think whether <$integer, 5>.add(6)'s equivalence to $integer.add(5, 6) is elegant"
+>"it is, in a way, yes... but 5.add(6) preserves those semantics.  We're not talking about elemental type objects, but frobs.
+"it is, in a way, yes... but 5.add(6) preserves those semantics.  We're not talking about elemental type objects, but frobs.
+You say, "it is, in a way, yes... but 5.add(6) preserves those semantics.  We're not talking about elemental type objects, but frobs."
+>"<$integer, 5> is kinda redundant.
+"<$integer, 5> is kinda redundant.
+You say, "<$integer, 5> is kinda redundant."
+Paul says, "like I said, I don't have much fervor with this"
+>"Not to mention illegal under the original coldmud server :)
+"Not to mention illegal under the original coldmud server :)
+You say, "Not to mention illegal under the original coldmud server :)"
+>"Cool.  QV ... objections?
+"Cool.  QV ... objections?
+You say, "Cool.  QV ... objections?"
+Quantum-Vacuum nope
+>"Done, done and done again.
+"Done, done and done again.
+You say, "Done, done and done again."
+>"Thank you, gentlemen.
+"Thank you, gentlemen.
+You say, "Thank you, gentlemen."
+Paul says, "but: <f,r>.m(a) -> f.frob_m(a)?"
+Quantum-Vacuum says, "well, I would have preferred if you had rethought the frobs from scratch and then tried to map the new concept with as few mods as possible... but heh, this is real life(tm)."
+>`quantum-vacuum I have DEADLINES, do you hear me?  DEADLINES.
+`quantum-vacuum I have DEADLINES, do you hear me?  DEADLINES.
+Colin [to Quantum-Vacuum]: I have DEADLINES, do you hear me?  DEADLINES.
+>:collapses sobbing.
+:collapses sobbing.
+Colin collapses sobbing.
+Quantum-Vacuum laughs
+>"re coldmud.el:  Now you too can have a buffer that resembles a candy store window!!
+"re coldmud.el:  Now you too can have a buffer that resembles a candy store window!!
+You say, "re coldmud.el:  Now you too can have a buffer that resembles a candy store window!!"
+Quantum-Vacuum [to Paul]: might as well go for <$f,r>.m(a) -> $f.frobcall(m,@a)
+Quantum-Vacuum says, "at least you get to catch unknown method names..."
+>"I'm uncomfortable with it, and I can't state why.
+"I'm uncomfortable with it, and I can't state why.
+You say, "I'm uncomfortable with it, and I can't state why."
+>"I suspect it's because I've not experienced a compelling need for it.
+"I suspect it's because I've not experienced a compelling need for it.
+You say, "I suspect it's because I've not experienced a compelling need for it."
+Paul says, "we're already doing that with colin's funky new error catching, yes?"
+Paul doesn't like the overhead, QV
+Quantum-Vacuum shrugs
+>:nods, one can do it via ~methodnf.
+:nods, one can do it via ~methodnf.
+Colin nods, one can do it via ~methodnf.
+>"Mondo overhead in .catch(), mind you.
+"Mondo overhead in .catch(), mind you.
+Quantum-Vacuum says, "now talk about overhead..."
+You say, "Mondo overhead in .catch(), mind you."
+>:nods QV.
+:nods QV.
+Colin nods QV.
+Paul just wants to map names
+>"I keep saying:  ~methodnf could easily be a special case.
+"I keep saying:  ~methodnf could easily be a special case.
+You say, "I keep saying:  ~methodnf could easily be a special case."
+>"It's a simple matter of mapping a symbol which isn't found to one which should be.
+"It's a simple matter of mapping a symbol which isn't found to one which should be.
+You say, "It's a simple matter of mapping a symbol which isn't found to one which should be."
+>"ie:  cease to treat ~methodnf as a server error... treat it as a funky way of calling .method_not_found.
+"ie:  cease to treat ~methodnf as a server error... treat it as a funky way of calling .method_not_found.
+You say, "ie:  cease to treat ~methodnf as a server error... treat it as a funky way of calling .method_not_found."
+Quantum-Vacuum says, "bot necessarily... it may redirect the message to an entirely different object..."
+>"yeah, but in-core, QV.
+"yeah, but in-core, QV.
+You say, "yeah, but in-core, QV."
+Quantum-Vacuum says, "yeah... by extracting the original args from the traceback?"
+>"In terms of the implementation ... one just tests methodnf return from send_message, and retries it on the spot with .method_not_found() with one extra arg.
+"In terms of the implementation ... one just tests methodnf return from send_message, and retries it on the spot with .method_not_found() with one extra arg.
+You say, "In terms of the implementation ... one just tests methodnf return from send_message, and retries it on the spot with .method_not_found() with one extra arg."
+Quantum-Vacuum says, "ok, in-server :-)"
+>:shakes his head, no traceback - we just mandate that ~methodnf only happens when .method_not_found() isn't found.
+:shakes his head, no traceback - we just mandate that ~methodnf only happens when .method_not_found() isn't found.
+Colin shakes his head, no traceback - we just mandate that ~methodnf only happens when .method_not_found() isn't found.
+>"Much cheaper.
+"Much cheaper.
+You say, "Much cheaper."
+Quantum-Vacuum nods
+>"We cease to regard ~methodnf as a server error, so we don't generate traceback, etc etc.
+"We cease to regard ~methodnf as a server error, so we don't generate traceback, etc etc.
+You say, "We cease to regard ~methodnf as a server error, so we don't generate traceback, etc etc."
+>"In fact, it's a 15 minute hack.
+"In fact, it's a 15 minute hack.
+You say, "In fact, it's a 15 minute hack."
+>"Including testing :)
+"Including testing :)
+You say, "Including testing :)"
+>:notes, `testing' == "`Crag test this, please"
+:notes, `testing' == "`Crag test this, please"
+Colin notes, `testing' == "`Crag test this, please"
+Quantum-Vacuum says, "That's what I suggested doing for all the server errors, instead of .catch"
+Quantum-Vacuum says, "So I can't dispute you ~methodnf suggestion"
+Quantum-Vacuum says, "s/you/your"
+>"Hmm... iz possible.
+"Hmm... iz possible.
+You say, "Hmm... iz possible."
+>"Oh .. no it's not.
+"Oh .. no it's not.
+You say, "Oh .. no it's not."
+>"Well, possible: yeah, big win: no.
+"Well, possible: yeah, big win: no.
+You say, "Well, possible: yeah, big win: no."
+>"To call a method when you were about to call a method anyway is one thing.
+"To call a method when you were about to call a method anyway is one thing.
+You say, "To call a method when you were about to call a method anyway is one thing."
+>"To call one when you were about to add two integers is entirely different.
+"To call one when you were about to add two integers is entirely different.
+You say, "To call one when you were about to add two integers is entirely different."
+>"And particularly if you want to recover some value from the intercession.
+"And particularly if you want to recover some value from the intercession.
+You say, "And particularly if you want to recover some value from the intercession."
+>"It's the same problem as exception handling in CPUs, really:  you have to restart the instruction, or abort it and substitute something.
+"It's the same problem as exception handling in CPUs, really:  you have to restart the instruction, or abort it and substitute something.
+You say, "It's the same problem as exception handling in CPUs, really:  you have to restart the instruction, or abort it and substitute something."
+Quantum-Vacuum doesn't know the server's code enough to argue
+>"In either case, you have to build a stack frame.
+"In either case, you have to build a stack frame.
+You say, "In either case, you have to build a stack frame."
+>"And you also have to remember when to end the intercession and resume the normal course of operation.
+"And you also have to remember when to end the intercession and resume the normal course of operation.
+You say, "And you also have to remember when to end the intercession and resume the normal course of operation."
+>"I chose to use the exception handler to store information as to where the opcode is which needs to be restarted, and what the stack looked like when it failed.
+"I chose to use the exception handler to store information as to where the opcode is which needs to be restarted, and what the stack looked like when it failed.
+You say, "I chose to use the exception handler to store information as to where the opcode is which needs to be restarted, and what the stack looked like when it failed."
+>:thinks that's a defensible decision, however there's some question as to whether the whole opcode ought to be handed off for emulation, or just the specific error dealt with.
+:thinks that's a defensible decision, however there's some question as to whether the whole opcode ought to be handed off for emulation, or just the specific error dealt with.
+Colin thinks that's a defensible decision, however there's some question as to whether the whole opcode ought to be handed off for emulation, or just the specific error dealt with.
+>"I guess I'm of the opinion that emulating opcodes is best done by the server.
+"I guess I'm of the opinion that emulating opcodes is best done by the server.
+You say, "I guess I'm of the opinion that emulating opcodes is best done by the server."
+>"But I'm prepared to pervert my lofty principles for a cool hack.
+"But I'm prepared to pervert my lofty principles for a cool hack.
+You say, "But I'm prepared to pervert my lofty principles for a cool hack."
+>:grins.
+:grins.
+Colin grins.
+>"So, anyway, mull it over... the .method_not_found thing is easily done, if there's a consensus we ought.
+"So, anyway, mull it over... the .method_not_found thing is easily done, if there's a consensus we ought.
+You say, "So, anyway, mull it over... the .method_not_found thing is easily done, if there's a consensus we ought."
+>"As is the .frobcall, as is the frob_* ... but I think the very variety of possibilities is a sign that there's no compelling reason for any one of 'em.
+"As is the .frobcall, as is the frob_* ... but I think the very variety of possibilities is a sign that there's no compelling reason for any one of 'em.
+You say, "As is the .frobcall, as is the frob_* ... but I think the very variety of possibilities is a sign that there's no compelling reason for any one of 'em."
+>:has no great love of any of it, although the .methodnf is probably well advised.
+:has no great love of any of it, although the .methodnf is probably well advised.
+Colin has no great love of any of it, although the .methodnf is probably well advised.
+Paul says, "There is a difference between pre-calling and just nomenclature"
+>"Pre-calling being?
+"Pre-calling being?
+You say, "Pre-calling being?"
+Paul says, "frobcall"
+>:ahz.
+:ahz.
+Colin ahz.
+>"In o/head terms?
+"In o/head terms?
+You say, "In o/head terms?"
+Paul says, "in general"
+>"Substantial.  One's an additional method / method call, the other's a simple string concatenation.
+"Substantial.  One's an additional method / method call, the other's a simple string concatenation.
+You say, "Substantial.  One's an additional method / method call, the other's a simple string concatenation."
+>"Although the latter, I'd probably never use.
+"Although the latter, I'd probably never use.
+You say, "Although the latter, I'd probably never use."
+Paul says, "you're referring to them as a variety of possibilities, but they have different points"
+>"So enlighten me ... I see the .frobcall as a superset of the frob_*.
+"So enlighten me ... I see the .frobcall as a superset of the frob_*.
+You say, "So enlighten me ... I see the .frobcall as a superset of the frob_*."
+Paul says, "I suppose."
+Paul says, "I just want to remove ambiguity of frob class objects"
+>:nods.  Why?
+:nods.  Why?
+Colin nods.  Why?
+Paul says, "ambiguity is bad"
+Paul says, "there can be conflict between the object nature and the frob nature"
+>"sometimes.
+"sometimes.
+You say, "sometimes."
+>"I mean, can you enumerate the cases in which ambiguity is bad?  :)
+"I mean, can you enumerate the cases in which ambiguity is bad?  :)
+You say, "I mean, can you enumerate the cases in which ambiguity is bad?  :)"
+>"Sometimes ambiguity is abstraction, I reckon.
+"Sometimes ambiguity is abstraction, I reckon.
+You say, "Sometimes ambiguity is abstraction, I reckon."
+Paul says, "when the frob class needs to act as an object"
+>"What's a frob class?
+"What's a frob class?
+Paul says, "and provide the interface the db expects"
+You say, "What's a frob class?"
+>@methods $frob
+@methods $frob
+> Object "$frob" not found. <
+>@methods $frob_class
+@methods $frob_class
+Methods:
+  all_methods([rep])                      : 6
+  methods([rep])                          : 6
+  unparse(rep)                            : 3
+Paul says, "<frob class, rep>"
+Paul says, "for example, 'name"
+>"That's a frob invocation, and has little to do with the object, IMO.
+"That's a frob invocation, and has little to do with the object, IMO.
+You say, "That's a frob invocation, and has little to do with the object, IMO."
+Paul was pointing out where the frob class fits in.
+>"Perhaps I'm missing something, but what's wrong with being able to call methods via dbref or via frob interchangeably?
+"Perhaps I'm missing something, but what's wrong with being able to call methods via dbref or via frob interchangeably?
+You say, "Perhaps I'm missing something, but what's wrong with being able to call methods via dbref or via frob interchangeably?"
+Paul says, "because the interfaces need to able to be different"
+>"$frob_class defines 3 methods:  one to unparse 'em.  Two to show the methods on one.  It's a convenience class with little utility.
+"$frob_class defines 3 methods:  one to unparse 'em.  Two to show the methods on one.  It's a convenience class with little utility.
+You say, "$frob_class defines 3 methods:  one to unparse 'em.  Two to show the methods on one.  It's a convenience class with little utility."
+Paul says, "especially if a frob wants to pretend to be like another object"
+>"Why?
+"Why?
+You say, "Why?"
+Paul says, "I'm not talking about $frob_class, I'm talking about frob classes in general."
+>:thinks there is no such thing as `a frob class'.
+:thinks there is no such thing as `a frob class'.
+Colin thinks there is no such thing as `a frob class'.
+>"it's like a unicorn:  white horse with horn.
+"it's like a unicorn:  white horse with horn.
+You say, "it's like a unicorn:  white horse with horn."
+Paul shrugs.
+Paul says, "Nomenclature"
+>"Well, I'm not even sure unicorns are useful for detecting virgins, you know?
+"Well, I'm not even sure unicorns are useful for detecting virgins, you know?
+You say, "Well, I'm not even sure unicorns are useful for detecting virgins, you know?"
+>"I see no compelling need to distinguish `a class, almost all of whose methods are to be invoked by frob' and `a class, none of whose methods may be invoked by frob', which is the current situation.
+"I see no compelling need to distinguish `a class, almost all of whose methods are to be invoked by frob' and `a class, none of whose methods may be invoked by frob', which is the current situation.
+You say, "I see no compelling need to distinguish `a class, almost all of whose methods are to be invoked by frob' and `a class, none of whose methods may be invoked by frob', which is the current situation."
+>"In fact, I'm finding the distinction an obstruction.
+"In fact, I'm finding the distinction an obstruction.
+You say, "In fact, I'm finding the distinction an obstruction."
+>"Therefore, I contend, there may be no useful difference between `a frob class' and `any class'.  Merely usage.
+"Therefore, I contend, there may be no useful difference between `a frob class' and `any class'.  Merely usage.
+You say, "Therefore, I contend, there may be no useful difference between `a frob class' and `any class'.  Merely usage."
+Paul says, "class, frob class, what's the difference?"
+>:notes that $frob_class, the object wherein one would expect to see additions of value above $root is bereft of such additional value, and I am hard pressed to nominate.
+:notes that $frob_class, the object wherein one would expect to see additions of value above $root is bereft of such additional value, and I am hard pressed to nominate.
+Colin notes that $frob_class, the object wherein one would expect to see additions of value above $root is bereft of such additional value, and I am hard pressed to nominate.
+>:nods, exactly.  What is the difference?
+:nods, exactly.  What is the difference?
+Colin nods, exactly.  What is the difference?
+>"Perhaps we're agreeing vehemently, again?
+"Perhaps we're agreeing vehemently, again?
+You say, "Perhaps we're agreeing vehemently, again?"
+Paul says, "well, it seems to me you want to move from frobs being like separate objects to frobs being constructions to interface with the classes"
+>"I think there are useful uses of frobs in both roles.
+"I think there are useful uses of frobs in both roles.
+You say, "I think there are useful uses of frobs in both roles."
+>"But yeah, that's a succinct statement of intent.  I'd like to confuse objects and frobs, or at least permit users/programmers to, when it's profitable.
+"But yeah, that's a succinct statement of intent.  I'd like to confuse objects and frobs, or at least permit users/programmers to, when it's profitable.
+You say, "But yeah, that's a succinct statement of intent.  I'd like to confuse objects and frobs, or at least permit users/programmers to, when it's profitable."
+>"Mainly/only because of cookieperms, which appear to me to be fantastically cool.
+"Mainly/only because of cookieperms, which appear to me to be fantastically cool.
+You say, "Mainly/only because of cookieperms, which appear to me to be fantastically cool."
+Quantum-Vacuum says, "ok, let's have 2 kinds of frobs:"
+>"Oh, but also because of, e.g. $set.
+"Oh, but also because of, e.g. $set.
+You say, "Oh, but also because of, e.g. $set."
+Quantum-Vacuum says, "1) frob that refers to an object (much like a $dbname) but with funky properties."
+>:yikes!  $set will break.
+:yikes!  $set will break.
+Colin yikes!  $set will break.
+Quantum-Vacuum says, "2) frobs that are purely cheap objects for stuff like $set, $list, $heap, etc."
+>"What are their distinguishing characteristics?
+"What are their distinguishing characteristics?
+Quantum-Vacuum says, "we may find more uses..."
+You say, "What are their distinguishing characteristics?"
+Quantum-Vacuum says, "but make the $cookie a first class object and stuff the object it points to in its rep"
+Quantum-Vacuum says, "<$cookie, [$QV, secret]>"
+Quantum-Vacuum says, "you handle $cookies explicitely, with the .call() method"
+>:hms, that latter is not a bad approach at all, QV.
+:hms, that latter is not a bad approach at all, QV.
+Colin hms, that latter is not a bad approach at all, QV.
+>"Or $cookie.methodnf()
+"Or $cookie.methodnf()
+You say, "Or $cookie.methodnf()"
+>"Which subsumes .call()
+"Which subsumes .call()
+You say, "Which subsumes .call()"
+Quantum-Vacuum says, "sure, use both.... if you will, but make the programmer know he's handling a $cookie."
+Quantum-Vacuum says, "document it as a pointer with perms attached"
+>"It's a nice inversion.
+"It's a nice inversion.
+You say, "It's a nice inversion."
+>:ahz, as it stands, $cookie is a parent of $QV.
+:ahz, as it stands, $cookie is a parent of $QV.
+Colin ahz, as it stands, $cookie is a parent of $QV.
+>"That way $QV and $cookie get to communicate secrets securely.
+"That way $QV and $cookie get to communicate secrets securely.
+You say, "That way $QV and $cookie get to communicate secrets securely."
+Quantum-Vacuum nods, "in retrospective, it's a natural error.  Next time I'll be more careful"
+>"Since there's no way to spoof sender() == this()
+"Since there's no way to spoof sender() == this()
+You say, "Since there's no way to spoof sender() == this()"
+Quantum-Vacuum says, "oh..."
+>"If $cookie ! $QV  ... then you need to securely comm secrets :)
+"If $cookie ! $QV  ... then you need to securely comm secrets :)
+You say, "If $cookie ! $QV  ... then you need to securely comm secrets :)"
+>:thinks we can call that mechanism $capability, and inherit $QV from it, and share a +lot+ of code with $cookie :)
+:thinks we can call that mechanism $capability, and inherit $QV from it, and share a +lot+ of code with $cookie :)
+Colin thinks we can call that mechanism $capability, and inherit $QV from it, and share a +lot+ of code with $cookie :)
+Quantum-Vacuum says, "well, I guess you'd need $cookied parent for $qv, and a $cookie frob class for the pointer."
+>"What's it really buy you?
+"What's it really buy you?
+You say, "What's it really buy you?"
+Quantum-Vacuum says, "resolves ambiguity"
+>"Look at it another way:  with rep() ... +all+ method invocations are frob invocations, just that some are <$fred> (no rep), and the server takes advantage of that.
+"Look at it another way:  with rep() ... +all+ method invocations are frob invocations, just that some are <$fred> (no rep), and the server takes advantage of that.
+You say, "Look at it another way:  with rep() ... +all+ method invocations are frob invocations, just that some are <$fred> (no rep), and the server takes advantage of that."
+>"it's a special case performance hack to call a method on an object without a frob wrapper.
+"it's a special case performance hack to call a method on an object without a frob wrapper.
+You say, "it's a special case performance hack to call a method on an object without a frob wrapper."
+Quantum-Vacuum says, "cool."
+>:grins.
+:grins.
+Colin grins.
+>"All dbrefs are actually frobs, just some have null representation.
+"All dbrefs are actually frobs, just some have null representation.
+You say, "All dbrefs are actually frobs, just some have null representation."
+Quantum-Vacuum says, "what to you mean null?"
+>"I mean <$fred>
+"I mean <$fred>
+You say, "I mean <$fred>"
+>"Non existent.
+"Non existent.
+You say, "Non existent."
+Quantum-Vacuum says, "yeah, but what happens if you call rep() when not invoked as a frob?"
+>"At the moment, it returns 0.  It can easily throw an error.
+"At the moment, it returns 0.  It can easily throw an error.
+You say, "At the moment, it returns 0.  It can easily throw an error."
+>"Which's better?  It's the work of 2 minutes to change between 'em.
+"Which's better?  It's the work of 2 minutes to change between 'em.
+You say, "Which's better?  It's the work of 2 minutes to change between 'em."
+Quantum-Vacuum thinks it'd be more appropriate.
+>:nods.
+:nods.
+Colin nods.
+Quantum-Vacuum says, "otherwise, you can't distinguish between <$fred> and <$fred,0>"
+>"Done.
+"Done.
+You say, "Done."
+>:| 	cthrow(type_id, "Invocation has no representation.");
+:| 	cthrow(type_id, "Invocation has no representation.");
+Colin | cthrow(type_id, "Invocation has no representation.");
+>"Compiled.
+"Compiled.
+You say, "Compiled."
+Quantum-Vacuum says, "what does it throw? ~type?"
+>:nods.  I'd sacrificed referential completeness for minor efficiency.
+:nods.  I'd sacrificed referential completeness for minor efficiency.
+Colin nods.  I'd sacrificed referential completeness for minor efficiency.
+>:nods, ~type.  I can change it ... if there's something more appropriate.
+:nods, ~type.  I can change it ... if there's something more appropriate.
+Colin nods, ~type.  I can change it ... if there's something more appropriate.
+>:makes it ~frob
+:makes it ~frob
+Colin makes it ~frob
+>"I'm glad you're both here to keep me honest.
+"I'm glad you're both here to keep me honest.
+You say, "I'm glad you're both here to keep me honest."
+>`paul how's that suit you?  dbrefs are ako frob?
+`paul how's that suit you?  dbrefs are ako frob?
+Colin [to Paul]: how's that suit you?  dbrefs are ako frob?
+>"A degenerate kind of frob.
+"A degenerate kind of frob.
+You say, "A degenerate kind of frob."
+Quantum-Vacuum says, "may be viewed as..."
+>:grins, nods.
+:grins, nods.
+Colin grins, nods.
+Quantum-Vacuum says, "other frobs can be seen as fulfeatured instances of a class (but without data abstraction)"
+>"May, without loss of coherence, utility or referential precision, be viewed as.
+"May, without loss of coherence, utility or referential precision, be viewed as.
+You say, "May, without loss of coherence, utility or referential precision, be viewed as."
+>"If we're getting legalistic.
+"If we're getting legalistic.
+You say, "If we're getting legalistic."
+Quantum-Vacuum grins
+>"Never gets invited to the party of the first part.
+"Never gets invited to the party of the first part.
+You say, "Never gets invited to the party of the first part."
+>:mavs.  I must be manic.
+:mavs.  I must be manic.
+Colin mavs.  I must be manic.
+>`quantum-vacuum I like this semantic dodge.
+`quantum-vacuum I like this semantic dodge.
+Colin [to Quantum-Vacuum]: I like this semantic dodge.
+>"Unfortunate news, though:  for $set to work, $list has to use rep() instead of 1st argument.
+"Unfortunate news, though:  for $set to work, $list has to use rep() instead of 1st argument.
+You say, "Unfortunate news, though:  for $set to work, $list has to use rep() instead of 1st argument."
+>"because pass() passes the rep(), but (I think) can't know to convert to argument-form.
+"because pass() passes the rep(), but (I think) can't know to convert to argument-form.
+>"And because $set, called as a frob, exploits the similarity of representation.
+"And because $set, called as a frob, exploits the similarity of representation.
+Quantum-Vacuum says, "doesn't matter, does it?"
+You say, "because pass() passes the rep(), but (I think) can't know to convert to argument-form."
+You say, "And because $set, called as a frob, exploits the similarity of representation."
+>"between frob and builtin type object.
+"between frob and builtin type object.
+You say, "between frob and builtin type object."
+>"Well, it does:  <$set, rep>.method(arg) -> $set.method(@arg) ... [list].method(arg) -> $list.method([list], @arg)
+"Well, it does:  <$set, rep>.method(arg) -> $set.method(@arg) ... [list].method(arg) -> $list.method([list], @arg)
+You say, "Well, it does:  <$set, rep>.method(arg) -> $set.method(@arg) ... [list].method(arg) -> $list.method([list], @arg)"
+>"So $set can't inherit from $list, unless their arg conventions are identical.
+"So $set can't inherit from $list, unless their arg conventions are identical.
+You say, "So $set can't inherit from $list, unless their arg conventions are identical."
+Quantum-Vacuum says, "oh."
+Quantum-Vacuum grins
+Quantum-Vacuum says, "well, you could of course......"
+Quantum-Vacuum says, "change the was [].method() is handled.."
+Quantum-Vacuum says, "s/was/way"
+>:nods, I shall.
+:nods, I shall.
+Colin nods, I shall.
+>"$list will have to call rep().  It's sad, but there are few builtin type objects, and many dbrefs.
+"$list will have to call rep().  It's sad, but there are few builtin type objects, and many dbrefs.
+You say, "$list will have to call rep().  It's sad, but there are few builtin type objects, and many dbrefs."
+Quantum-Vacuum says, "so will $integer, $string, $dict, etc."
+>:nods, yep.  All 5 or so of 'em.
+:nods, yep.  All 5 or so of 'em.
+Colin nods, yep.  All 5 or so of 'em.
+Paul says, "so now we come around from the other side"
+>:nods Paul, grinning.
+:nods Paul, grinning.
+Colin nods Paul, grinning.
+>`paul Oh, `coming around' are you talking about?  The discussion here, or the mailing list post?
+`paul Oh, `coming around' are you talking about?  The discussion here, or the mailing list post?
+Colin [to Paul]: Oh, `coming around' are you talking about?  The discussion here, or the mailing list post?
+Paul | Colin says, "it is, in a way, yes... but 5.add(6) preserves those semantics.  We're not talking about elemental type objects, but frobs."
+>:nods Paul.  I see that that's untenable.
+:nods Paul.  I see that that's untenable.
+Colin nods Paul.  I see that that's untenable.
+:| Colin yikes!  $set will break.
+Colin | Colin yikes!  $set will break.
+Paul isn't arguing.
+>:sends Dougo a zinger, pertaining to the mailing list thing.
+:sends Dougo a zinger, pertaining to the mailing list thing.
+Colin sends Dougo a zinger, pertaining to the mailing list thing.
+Paul says, "zinger?"
+>"Stinger.
+"Stinger.
+You say, "Stinger."
+Paul says, "no; details?"
+:| > I just think it's childish, and I figured I might as well be childish in return.
+:| 
+:| Is it childish, then, to have excluded you personally from the above categories because I like you personally, regard you highly, and supposed you were above identifying with JaysHive's interests?  It must surely be so, or at least wildly optimistic.
+
+Colin | > I just think it's childish, and I figured I might as well be childish in return.
+Colin | 
+Colin | Is it childish, then, to have excluded you personally from the above categories because I like you personally, regard you highly, and supposed you were above identifying with JaysHive's interests?  It must surely be so, or at least wildly optimistic.
+>"That's the only purely personal barb.
+"That's the only purely personal barb.
+You say, "That's the only purely personal barb."
+>:disambiguates `it':  > Really, the main reason I am upset is that I suspect it is simply a matter of personal bias: you don't like Ken (or whoever), so you're not going to let him hear your coldmud plans.
+:disambiguates `it':  > Really, the main reason I am upset is that I suspect it is simply a matter of personal bias: you don't like Ken (or whoever), so you're not going to let him hear your coldmud plans.
+Colin disambiguates `it':  > Really, the main reason I am upset is that I suspect it is simply a matter of personal bias: you don't like Ken (or whoever), so you're not going to let him hear your coldmud plans.
+>"attacks the contention: `personal bias' is childish.
+"attacks the contention: `personal bias' is childish.
+You say, "attacks the contention: `personal bias' is childish."
+>:mavs again.
+:mavs again.
+Colin mavs again.
+>:muses ... is there some reason I should want to let someone I don't like hear anything I have to say?
+:muses ... is there some reason I should want to let someone I don't like hear anything I have to say?
+Colin muses ... is there some reason I should want to let someone I don't like hear anything I have to say?
+>:guesses it depends upon my subjective assessment of the utility of such an act, which is `practically zero' in the current case.
+:guesses it depends upon my subjective assessment of the utility of such an act, which is `practically zero' in the current case.
+Colin guesses it depends upon my subjective assessment of the utility of such an act, which is `practically zero' in the current case.
+>"So it's not simply a matter of personal bias, it's a matter of personal bias coupled with complete contempt for the individual's technical merit.
+"So it's not simply a matter of personal bias, it's a matter of personal bias coupled with complete contempt for the individual's technical merit.
+You say, "So it's not simply a matter of personal bias, it's a matter of personal bias coupled with complete contempt for the individual's technical merit."
+>"But that's probably libellous.
+"But that's probably libellous.
+You say, "But that's probably libellous."
+>"These reverse-gag techniques are tremendously explosive.
+"These reverse-gag techniques are tremendously explosive.
+You say, "These reverse-gag techniques are tremendously explosive."
+>"For some reason it is presumed that you abandon any right to your speech acts as soon as they leave your lips, except that quoting them is bad form.
+"For some reason it is presumed that you abandon any right to your speech acts as soon as they leave your lips, except that quoting them is bad form.
+You say, "For some reason it is presumed that you abandon any right to your speech acts as soon as they leave your lips, except that quoting them is bad form."
+>"Any ownership, that is.
+"Any ownership, that is.
+You say, "Any ownership, that is."
+Paul says, "It is indeed wise to chose one's forum."
+>"Small wonder I have difficulty with the probity of their collective dealings in intellectual property.
+"Small wonder I have difficulty with the probity of their collective dealings in intellectual property.
+You say, "Small wonder I have difficulty with the probity of their collective dealings in intellectual property."
+Paul o
+>"How far do I have to go to avoid the JaysHivers and Brandonites???
+"How far do I have to go to avoid the JaysHivers and Brandonites???
+You say, "How far do I have to go to avoid the JaysHivers and Brandonites???"
+>"I was chased off Brandon's mailing list by abuse, @toaded from JaysHive ... and now I've got to speak to 'em if they will it?
+"I was chased off Brandon's mailing list by abuse, @toaded from JaysHive ... and now I've got to speak to 'em if they will it?
+>"It's a species of slavery.
+"It's a species of slavery.
+You say, "I was chased off Brandon's mailing list by abuse, @toaded from JaysHive ... and now I've got to speak to 'em if they will it?"
+You say, "It's a species of slavery."
+>:would like to be left alone, and not forced to contribute to systems he doesn't like.
+:would like to be left alone, and not forced to contribute to systems he doesn't like.
+Colin would like to be left alone, and not forced to contribute to systems he doesn't like.
+Paul says, "It's like avoiding the borg."
+>"left alone, at least, by people who don't like me.
+"left alone, at least, by people who don't like me.
+You say, "left alone, at least, by people who don't like me."
+>"JaysHive is a hive, yeah.
+"JaysHive is a hive, yeah.
+You say, "JaysHive is a hive, yeah."
+Paul says, "too bad we never did make the jhm t-shirt; Sean was pushing for "The 'h' is for 'hive'""
+>:nods.  I saw the Yah Hsm Whuggle drawing he did.
+:nods.  I saw the Yah Hsm Whuggle drawing he did.
+Colin nods.  I saw the Yah Hsm Whuggle drawing he did.
+>"Yay, rather.
+"Yay, rather.
+You say, "Yay, rather."
+>"Funny bloke, Sean.  How's he going?
+"Funny bloke, Sean.  How's he going?
+You say, "Funny bloke, Sean.  How's he going?"
+Paul says, "he was recently further ostracized"
+>:recalls even yduJ loved `JaysHiveJive'
+:recalls even yduJ loved `JaysHiveJive'
+Paul says, "so he's not connecting as much"
+Colin recalls even yduJ loved `JaysHiveJive'
+Paul says, "right now I think he's at a conference in Chicago"
+Paul should mail him
+>"How could he be further ostracized???  How's it possible?
+"How could he be further ostracized???  How's it possible?
+You say, "How could he be further ostracized???  How's it possible?"
+Paul says, "from Dhalgren"
+>:ooohz.
+:ooohz.
+Colin ooohz.
+Paul says, "and from interim-jhm"
+Paul says, "he was stock-redlisted"
+>:heh, Dhalgren.  The stamping ground of legba.
+:heh, Dhalgren.  The stamping ground of legba.
+Colin heh, Dhalgren.  The stamping ground of legba.
+>"stock-redlisted?  interim-jhm?
+"stock-redlisted?  interim-jhm?
+You say, "stock-redlisted?  interim-jhm?"
+Paul says, "jhm was down for a couple weeks"
+Paul says, "ken put up another moo"
+Paul says, "and started by redlisting bgsu"
+>"I once visited Dhalgren, at the invitation of someone, to see their program, and immediately I did, the person was interrogated by legba to discover if the Guest was me.
+"I once visited Dhalgren, at the invitation of someone, to see their program, and immediately I did, the person was interrogated by legba to discover if the Guest was me.
+You say, "I once visited Dhalgren, at the invitation of someone, to see their program, and immediately I did, the person was interrogated by legba to discover if the Guest was me."
+Paul says, "poor Australia."
+>:laughs ... Ken did?  Mr Ken `My ego will bruise if I'm not on a mailing list' Xythian?
+:laughs ... Ken did?  Mr Ken `My ego will bruise if I'm not on a mailing list' Xythian?
+Colin laughs ... Ken did?  Mr Ken `My ego will bruise if I'm not on a mailing list' Xythian?
+>"Fuck him.
+"Fuck him.
+You say, "Fuck him."
+Paul says, "Ken really exerted his PE prowess"
+>"I'd like to think that if he visited here, while I was here, I'd be extremely polite to him.
+"I'd like to think that if he visited here, while I was here, I'd be extremely polite to him.
+You say, "I'd like to think that if he visited here, while I was here, I'd be extremely polite to him."
+Paul says, "one friend-of-a-jhmer said that ken only started the moo to be #2"
+Paul says, "ken then toaded him"
+>:laughs.
+:laughs.
+Colin laughs.
+>"The slavish ones are always the worst bosses.
+"The slavish ones are always the worst bosses.
+You say, "The slavish ones are always the worst bosses."
+>"This is all just bullshit.  It seems really simple.  People may talk in front of whomsoever they wish.  I will do likewise.  I will not post on Jordan's, because I have no desire to talk in front of Kibbitzing JaysHive or BrandonWelt people.  It may have been different if they'd +contributed+.
+"This is all just bullshit.  It seems really simple.  People may talk in front of whomsoever they wish.  I will do likewise.  I will not post on Jordan's, because I have no desire to talk in front of Kibbitzing JaysHive or BrandonWelt people.  It may have been different if they'd +contributed+.
+You say, "This is all just bullshit.  It seems really simple.  People may talk in front of whomsoever they wish.  I will do likewise.  I will not post on Jordan's, because I have no desire to talk in front of Kibbitzing JaysHive or BrandonWelt people.  It may have been different if they'd +contributed+."
+Paul says, "It is easy to see parallels in real life.  You choose to whom you speak."
+Paul says, "A qui parler vous choisissez."
+Paul says, "QV?"
+Quantum-Vacuum says, "Vous choisissez a qui parler"
+Paul says, "on choisit?"
+Paul forgets singular -ir endings.
+Quantum-Vacuum says, "ou, vous choisissez a qui vous parlez"
+Quantum-Vacuum says, "oui, on choisit."
+Quantum-Vacuum says, "on choisit a qui on parle"
+>"on == one?
+"on == one?
+You say, "on == one?"
+Paul says, "Merci"
+Paul nods
+Quantum-Vacuum says, "yeah, it includes `I==moi'"
+>"So that's where `one' meaning `you generic' came from.
+"So that's where `one' meaning `you generic' came from.
+You say, "So that's where `one' meaning `you generic' came from."
+Quantum-Vacuum says, "wereas `nous' usually excludes `moi'"
+>"English doesn't have that distinction, I think.
+"English doesn't have that distinction, I think.
+You say, "English doesn't have that distinction, I think."
+Quantum-Vacuum says, "sorry, I got it reversed :-)"
+Paul says, "except the 'you' is really colloquial"
+>:idles to make lunch.
+:idles to make lunch.
+Colin idles to make lunch.
+Paul says, "wacky on the time zones"
+>
+
+
+Process KarlMOO killed
+>

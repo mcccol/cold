@@ -1,0 +1,1949 @@
+
+adminop.c,816
+#define _POSIX_SOURCE3,58
+#define strerror(strerror34,621
+void op_create(46,1166
+void op_chparents(83,2005
+void op_destroy(137,3427
+void op_log(169,4313
+void op_conn_assign(188,4793
+void op_binary_backup(214,5423
+void op_binary_dump(230,5911
+void op_text_dump(249,6566
+void op_run_script(260,6716
+void op_shutdown(352,9331
+void op_bind(364,9484
+void op_unbind(384,9973
+void op_connect(402,10266
+void op_set_heartbeat_freq(430,10857
+void op_data(448,11115
+void op_set_name(497,12149
+void op_del_name(514,12406
+#define CHECK_ADMIN 534,12701
+void op_cancel(536,12750
+void op_suspend(553,13000
+void op_resume(562,13160
+void op_pause(584,13538
+void op_tasks(591,13628
+void op_db_top(599,13730
+void op_tick(606,13811
+void op_hostname(613,13895
+void op_ip(628,14110
+void op_callers(643,14310
+
+arithop.c,490
+#define _POSIX_SOURCE3,55
+void op_not(20,603
+void op_negate(33,928
+void op_multiply(48,1324
+void op_divide(68,1976
+void op_modulo(90,2731
+void op_add(112,3531
+void op_splice_add(156,4946
+void op_subtract(175,5530
+void op_equal(194,6109
+void op_not_equal(206,6399
+void op_greater(221,6843
+void op_greater_or_equal(244,7509
+void op_less(266,8163
+void op_less_or_equal(289,8826
+void op_in(313,9602
+void op_bitand(348,10259
+void op_bitor(359,10422
+void op_bitshift(370,10584
+
+assembler.c,148
+#define _POSIX_SOURCE3,33
+List *disassemble(22,368
+static List *disassemble_method(98,1771
+void op_disassemble(106,1970
+void op_debug(129,2384
+
+assert.c,81
+DEFUN(__assert,41,1358
+DEFUN(__assert_fail,62,1804
+DEFUN(set_progname,92,2470
+
+buffer.c,505
+#define _POSIX_SOURCE3,55
+#define BUFALLOC(BUFALLOC11,176
+#define BUFREALLOC(BUFREALLOC12,245
+Buffer *buffer_new(16,375
+Buffer *buffer_dup(26,506
+void buffer_discard(32,576
+Buffer *buffer_append(39,663
+int buffer_retrieve(50,938
+Buffer *buffer_replace(55,1009
+Buffer *buffer_add(64,1198
+Buffer *buffer_add_chars(73,1397
+int buffer_len(84,1647
+Buffer *buffer_truncate(89,1701
+List *buffer_to_strings(116,2425
+Buffer *buffer_from_strings(194,4261
+static Buffer *prepare_to_modify(229,5107
+
+bufferop.c,253
+void op_buffer_len(7,123
+void op_buffer_retrieve(19,300
+void op_buffer_append(34,605
+void op_buffer_replace(44,795
+void op_buffer_add(58,1115
+void op_buffer_truncate(68,1297
+void op_buffer_to_strings(87,1747
+void op_buffer_from_strings(103,2092
+
+cache.c,322
+#define _POSIX_SOURCE6,213
+void init_cache(29,813
+Object *cache_get_holder(59,1786
+Object *cache_retrieve(103,3020
+Object *cache_grab(157,4399
+void cache_discard(169,4855
+int cache_check(209,5931
+void cache_sync(236,6556
+Object *cache_first(265,7195
+Object *cache_next(276,7364
+void cache_sanity_check(290,7741
+
+codeaccess.c,430
+int getInt(12,240
+int incInt(25,473
+void putInt(30,532
+unsigned sizeInt(41,754
+unsigned int getPtr(46,799
+unsigned sizePtr(80,1482
+int incPtr(96,1780
+void putPtr(101,1859
+unsigned getOp(123,2542
+unsigned sizeOp(129,2647
+int incOp(134,2730
+void putOp(139,2799
+int getJump(144,2902
+int jump(159,3188
+void putJump(164,3263
+unsigned sizeJump(179,3544
+int incJump(189,3714
+void incArg(194,3785
+int incInstr(214,4059
+
+codegen.c,2139
+#define _POSIX_SOURCE3,65
+#define MALLOC_DELTA	22,501
+#define INSTR_BUF_START 23,525
+#define JUMP_TABLE_START	24,571
+#define MAX_VARS	25,617
+void init_codegen(62,1925
+Prog *make_prog(80,2576
+Arguments *arguments(92,2842
+Stmt *comment_stmt(101,3016
+Stmt *noop_stmt(111,3213
+Stmt *expr_stmt(120,3364
+Stmt *compound_stmt(130,3546
+Stmt *if_stmt(140,3756
+Stmt *if_else_stmt(152,4034
+Stmt *for_range_stmt(159,4153
+Stmt *for_list_stmt(172,4497
+Stmt *while_stmt(184,4783
+Stmt *switch_stmt(195,5018
+Stmt *break_stmt(206,5265
+Stmt *continue_stmt(215,5418
+Stmt *return_stmt(224,5577
+Stmt *return_expr_stmt(233,5732
+Stmt *catch_stmt(243,5928
+Expr *integer_expr(255,6225
+Expr *string_expr(265,6409
+Expr *dbref_expr(275,6588
+Expr *symbol_expr(285,6774
+Expr *error_expr(295,6966
+Expr *name_expr(305,7153
+Expr *var_expr(315,7335
+Expr *assign_expr(325,7515
+Expr *function_call_expr(336,7752
+Expr *pass_expr(347,8012
+Expr *message_expr(357,8199
+Expr *expr_message_expr(369,8532
+Expr *list_expr(381,8893
+Expr *dict_expr(391,9080
+Expr *buffer_expr(401,9267
+Expr *frob_expr(411,9458
+Expr *index_expr(422,9690
+Expr *unary_expr(433,9929
+Expr *binary_expr(444,10166
+Expr *and_expr(456,10454
+Expr *or_expr(467,10682
+Expr *cond_expr(478,10906
+Expr *critical_expr(490,11187
+Expr *propagate_expr(500,11377
+Expr *splice_expr(510,11569
+Expr *range_expr(520,11755
+Case_entry *case_entry(531,11994
+Id_list *id_list(541,12224
+Stmt_list *stmt_list(551,12429
+Expr_list *expr_list(560,12608
+Case_list *case_list(569,12787
+Method *generate_method(585,13437
+static void compile_stmt_list(608,14054
+static void compile_stmt(622,14597
+static void compile_cases(924,23025
+static void compile_case_values(973,24491
+static void compile_expr_list(986,24909
+static void compile_expr(996,25179
+static int find_local_var(1330,31723
+static void check_instr_buf(1364,32651
+static void code(1374,32953
+static void code_str(1385,33340
+static void code_errors(1396,33727
+static int new_jump_dest(1404,33982
+static void set_jump_dest_here(1420,34525
+static int id_list_size(1425,34605
+static Method *final_pass(1439,35023
+
+data.c,422
+#define _POSIX_SOURCE3,51
+int data_refs(22,427
+int data_cmp(62,1236
+int data_order(116,2336
+int data_true(179,3858
+unsigned long data_hash(218,4463
+void data_dup(272,5551
+void data_discard(327,6626
+String *data_tostr(364,7202
+String *data_to_literal(412,8234
+String *data_add_list_literal_to_str(422,8410
+String *data_add_literal_to_str(444,8975
+char *data_from_literal(513,10754
+long data_type_id(661,13850
+
+dataop.c,241
+#define _POSIX_SOURCE3,73
+void op_type(14,253
+void op_class(29,521
+void op_toint(58,1192
+void op_tostr(78,1630
+void op_toliteral(94,1919
+void op_todbref(110,2221
+void op_tosym(125,2513
+void op_toerr(139,2738
+void op_valid(153,2968
+
+db.c,706
+#define _POSIX_SOURCE4,112
+#define NEEDED(NEEDED26,510
+#define ROUND_UP(ROUND_UP27,574
+#define	BLOCK_SIZE	29,637
+#define	DB_BITBLOCK	30,687
+#define	LOGICAL_BLOCK(LOGICAL_BLOCK31,743
+#define	BLOCK_OFFSET(BLOCK_OFFSET32,791
+#define READ_WRITE	35,858
+#define READ_WRITE_EXECUTE	36,898
+#define READ_WRITE 38,961
+#define READ_WRITE_EXECUTE 39,985
+int init_db(60,1468
+static void grow_bitmap(142,3714
+static void db_mark(151,3973
+static void db_unmark(164,4248
+static int db_alloc(177,4506
+int db_get(218,5341
+int db_put(235,5677
+int db_check(268,6439
+int db_del(276,6559
+void db_close(306,7153
+void db_flush(314,7262
+static void db_is_clean(323,7367
+static void db_is_dirty(341,7740
+
+dbpack.c,1086
+#define _POSIX_SOURCE3,53
+void write_long(17,339
+long read_long(38,752
+int size_long(61,1144
+static void write_ident(76,1288
+static long read_ident(87,1471
+static long size_ident(114,2083
+static void pack_list(126,2375
+static List *unpack_list(135,2554
+static int size_list(149,2799
+void pack_dict(160,3009
+Dict *unpack_dict(173,3288
+static int size_dict(192,3752
+static void pack_vars(206,4071
+static void unpack_vars(226,4564
+static int size_vars(248,5118
+static void pack_method(270,5653
+static Method *unpack_method(299,6471
+static int size_method(352,7933
+static void pack_methods(382,8803
+static void unpack_methods(401,9276
+static int size_methods(420,9800
+static void pack_strings(439,10233
+static void unpack_strings(452,10534
+static int size_strings(466,10901
+static void pack_idents(481,11239
+static void unpack_idents(497,11601
+static int size_idents(511,11969
+static void pack_data(529,12363
+static void unpack_data(578,13169
+static int size_data(629,14039
+void pack_object(682,14918
+void unpack_object(693,15167
+int size_object(704,15432
+
+decode.c,1482
+#define _POSIX_SOURCE3,49
+#define TOKEN_SIZE 20,347
+#define PREC_SIZE 21,415
+#define A_VERY_LARGE_PRECEDENCE_LEVEL	22,478
+#define COMPLEX_FLAG	24,522
+#define SPANNING_IF_FLAG	25,549
+#define COMPLEX_IF_FLAG	26,579
+typedef struct context Context;Context28,610
+struct context context30,643
+int line_number(115,3181
+static int count_lines(134,3547
+List *decompile(382,10261
+static Stmt *decompile_stmt(458,12665
+static Stmt_list *decompile_stmt_list(586,16166
+static Stmt *decompile_until(595,16352
+static Stmt *decompile_body(604,16571
+static Stmt *body_from_stmt_list(609,16689
+static Case_list *decompile_cases(619,16868
+static Case_entry *decompile_case(633,17176
+static Expr_list *decompile_case_values(652,17710
+static Id_list *make_error_id_list(695,18713
+static Expr_list *decompile_expressions(719,19384
+static Expr_list *decompile_expressions_bounded(727,19727
+static List *unparse_stmt_list(991,25712
+static List *unparse_stmt(1004,26024
+static int is_complex_if_else_stmt(1226,33726
+static int is_complex_type(1238,34104
+static List *unparse_body(1244,34290
+static List *unparse_cases(1259,34808
+static List *unparse_case(1268,35039
+static String *unparse_expr(1285,35529
+static int is_this(1480,40981
+static String *unparse_args(1488,41278
+static String *unparse_expr_prec(1505,41828
+static int prec_level(1523,42351
+static char *binary_token(1536,42586
+static List *add_and_discard_string(1547,42779
+static char *varname(1559,43021
+
+dict.c,655
+#define _POSIX_SOURCE3,55
+#define MALLOC_DELTA	11,174
+#define HASHTAB_STARTING_SIZE	12,200
+Dict *dict_new(19,427
+Dict *dict_new_empty(68,1681
+Dict *dict_from_slices(81,1883
+Dict *dict_dup(109,2629
+void dict_discard(115,2696
+int dict_cmp(127,2889
+int dict_order(136,3061
+Dict *dict_add(141,3198
+Dict *dict_del(168,3953
+long dict_find(212,5244
+int dict_contains(224,5447
+List *dict_keys(232,5560
+List *dict_key_value_pair(237,5626
+String *dict_add_literal_to_str(250,5877
+static Dict *prepare_to_modify(267,6366
+static void insert_key(288,6948
+static int search(297,7140
+int dict_size(310,7396
+static void double_hashtab_size(315,7463
+
+dictop.c,133
+#define _POSIX_SOURCE3,65
+void op_dict_keys(12,208
+void op_dict_add(26,410
+void op_dict_del(38,614
+void op_dict_contains(55,968
+
+dump.c,207
+#define _POSIX_SOURCE2,65
+int binary_dump(30,688
+int binary_backup(38,871
+int text_dump(46,1087
+void text_dump_read(83,1866
+static long get_dbref(245,5956
+static Method *text_dump_get_method(276,6695
+
+errorop.c,99
+void op_error_func(8,127
+void op_traceback(21,355
+void op_throw(34,585
+void op_rethrow(55,1027
+
+execute.c,2234
+#define _POSIX_SOURCE3,52
+#define STACK_STARTING_SIZE	24,426
+#define ARG_STACK_STARTING_SIZE	25,482
+void debug_output(51,1048
+void panic_output(71,1626
+void pop(77,1692
+void check_stack(90,1974
+void push_data(100,2174
+void push_int(109,2331
+void push_string(120,2530
+void push_dbref(132,2781
+void push_list(143,2996
+void push_dict(160,3394
+void push_symbol(177,3787
+void push_error(188,4020
+void push_buffer(199,4249
+int pop_args(211,4499
+void store_stack(232,4874
+VMState *suspend_vm(254,5373
+void restore_vm(281,5937
+#define ADD_TO_LIST(ADD_TO_LIST298,6321
+#define REMOVE_FROM_LIST(REMOVE_FROM_LIST307,6530
+void task_delete(313,6695
+VMState *task_lookup(322,6872
+void task_resume(337,7153
+void task_suspend(356,7521
+void task_cancel(364,7645
+void task_pause(382,8005
+void run_paused_tasks(391,8148
+List *task_list(411,8680
+List *task_callers(433,9007
+void init_execute(462,9617
+long task(492,10368
+void task_method(532,11274
+long frame_start(542,11530
+void pop_error_action_specifier(633,14059
+void pop_handler_info(648,14419
+void frame_return(663,14752
+static void execute(713,16100
+void anticipate_assignment(747,16950
+Ident pass_message(772,17606
+Ident send_message(800,18260
+static void fill_in_method_info(831,19059
+static List *traceback_add(864,19755
+void propagate_error(896,20760
+static List *construct_traceback(1089,26476
+static List *locate_error(1134,27647
+static void interp_error(1161,28439
+void cthrowstr(1167,28669
+void cthrow(1172,28766
+void cthrowdata(1186,29043
+void cthrowchar(1200,29334
+static void err_handler(1229,30039
+void obj_handler(1352,33773
+void data_obj_handler(1367,34077
+void data_handler(1379,34309
+void data_arg_handler(1391,34518
+void type_error(1403,34747
+void user_error(1415,34956
+static void out_of_ticks_error(1437,35558
+int check_perms(1464,36295
+int check_index(1475,36512
+int check_range(1488,36852
+static void func_num_error(1506,37352
+static void func_type_error(1515,37580
+int func_init_0(1520,37766
+int func_init_1(1532,37955
+int func_init_2(1547,38304
+int func_init_3(1564,38780
+int func_init_0_or_1(1583,39384
+int func_init_1_or_2(1598,39777
+int func_init_2_or_3(1615,40313
+int func_init_1_to_3(1635,40984
+
+forcemalloc.c,142
+typedef struct Fence Fence4,90
+} Fence;Fence8,172
+__ptr_t malloc(10,182
+__ptr_t realloc(17,267
+__ptr_t calloc(22,354
+void free(27,443
+
+grammar.c,7131
+#define YYBISON 6,91
+#define	INTEGER	8,141
+#define	DBREF	9,161
+#define	COMMENT	10,179
+#define	STRING	11,199
+#define	SYMBOL	12,218
+#define	NAME	13,237
+#define	IDENT	14,254
+#define	ERROR	15,272
+#define	DISALLOW_OVERRIDES	16,290
+#define	ARG	17,321
+#define	VAR	18,337
+#define	IF	19,353
+#define	FOR	20,368
+#define	IN	21,384
+#define	UPTO	22,399
+#define	WHILE	23,416
+#define	SWITCH	24,434
+#define	CASE	25,453
+#define	DEFAULT	26,470
+#define	BREAK	27,490
+#define	CONTINUE	28,508
+#define	RETURN	29,529
+#define	CATCH	30,548
+#define	ANY	31,566
+#define	HANDLER	32,582
+#define	FORK	33,602
+#define	PASS	34,619
+#define	CRITLEFT	35,636
+#define	CRITRIGHT	36,657
+#define	PROPLEFT	37,679
+#define	PROPRIGHT	38,700
+#define	TO	39,722
+#define	OR	40,737
+#define	AND	41,752
+#define	EQ	42,768
+#define	NE	43,783
+#define	GE	44,798
+#define	LE	45,813
+#define	START_DICT	46,828
+#define	START_BUFFER	47,851
+#define	LOWER_THAN_ELSE	48,876
+#define	ELSE	49,904
+#define	LOWER_THAN_WITH	50,921
+#define	WITH	51,949
+#define	NOOP	52,966
+#define	EXPR	53,983
+#define	COMPOUND	54,1000
+#define	ASSIGN	55,1021
+#define	IF_ELSE	56,1040
+#define	FOR_RANGE	57,1060
+#define	FOR_LIST	58,1082
+#define	END	59,1103
+#define	RETURN_EXPR	60,1119
+#define	CASE_VALUE	61,1143
+#define	CASE_RANGE	62,1166
+#define	LAST_CASE_VALUE	63,1189
+#define	LAST_CASE_RANGE	64,1217
+#define	END_CASE	65,1245
+#define	RANGE	66,1266
+#define	FUNCTION_CALL	67,1284
+#define	MESSAGE	68,1310
+#define	EXPR_MESSAGE	69,1330
+#define	LIST	70,1355
+#define	DICT	71,1372
+#define	BUFFER	72,1389
+#define	FROB	73,1408
+#define	INDEX	74,1425
+#define	UNARY	75,1443
+#define	BINARY	76,1461
+#define	CONDITIONAL	77,1480
+#define	SPLICE	78,1504
+#define	NEG	79,1523
+#define	SPLICE_ADD	80,1539
+#define	POP	81,1562
+#define	START_ARGS	82,1578
+#define	ZERO	83,1601
+#define	ONE	84,1618
+#define	SET_LOCAL	85,1634
+#define	SET_OBJ_VAR	86,1656
+#define	GET_LOCAL	87,1680
+#define	GET_OBJ_VAR	88,1702
+#define	CATCH_END	89,1726
+#define	HANDLER_END	90,1748
+#define	CRITICAL	91,1772
+#define	CRITICAL_END	92,1793
+#define	PROPAGATE	93,1818
+#define	PROPAGATE_END	94,1840
+#define	JUMP	95,1866
+#define	BITAND	96,1883
+#define	BITOR	97,1902
+#define	BITSHIFT	98,1920
+#define	TYPE	99,1941
+#define	CLASS	100,1958
+#define	TOINT	101,1976
+#define	TOSTR	102,1994
+#define	TOLITERAL	103,2012
+#define	TODBREF	104,2034
+#define	TOSYM	105,2054
+#define	TOERR	106,2072
+#define	VALID	107,2090
+#define	STRLEN	108,2108
+#define	SUBSTR	109,2127
+#define	EXPLODE	110,2146
+#define	STRSUB	111,2166
+#define	PAD	112,2185
+#define	MATCH_BEGIN	113,2201
+#define	MATCH_TEMPLATE	114,2225
+#define	MATCH_PATTERN	115,2252
+#define	MATCH_REGEXP	116,2278
+#define	CRYPT	117,2303
+#define	UPPERCASE	118,2321
+#define	LOWERCASE	119,2343
+#define	STRCMP	120,2365
+#define	LISTLEN	121,2384
+#define	SUBLIST	122,2404
+#define	INSERT	123,2424
+#define	REPLACE	124,2443
+#define	DELETE	125,2463
+#define	SETADD	126,2482
+#define	SETREMOVE	127,2501
+#define	TOSET	128,2523
+#define	UNION	129,2541
+#define	FACTOR	130,2559
+#define	QSORT	131,2578
+#define	DICT_KEYS	132,2596
+#define	DICT_ADD	133,2618
+#define	DICT_DEL	134,2639
+#define	DICT_ADD_ELEM	135,2660
+#define	DICT_DEL_ELEM	136,2686
+#define	DICT_CONTAINS	137,2712
+#define	BUFFER_LEN	138,2738
+#define	BUFFER_RETRIEVE	139,2761
+#define	BUFFER_APPEND	140,2789
+#define	BUFFER_REPLACE	141,2815
+#define	BUFFER_ADD	142,2842
+#define	BUFFER_TRUNCATE	143,2865
+#define	BUFFER_TO_STRINGS	144,2893
+#define	BUFFER_FROM_STRINGS	145,2923
+#define	VERSION	146,2955
+#define	RANDOM	147,2975
+#define	TIME	148,2994
+#define	CTIME	149,3011
+#define	MIN	150,3029
+#define	MAX	151,3045
+#define	ABS	152,3061
+#define	GET_NAME	153,3077
+#define	THIS	154,3098
+#define	DEFINER	155,3115
+#define	SENDER	156,3135
+#define	CALLER	157,3154
+#define	TASK_ID	158,3173
+#define	REP	159,3193
+#define	TICKS_LEFT	160,3209
+#define	ERROR_FUNC	161,3232
+#define	TRACEBACK	162,3255
+#define	ERROR_STR	163,3277
+#define	ERROR_ARG	164,3299
+#define	THROW	165,3321
+#define	RETHROW	166,3339
+#define	ECHO_FUNC	167,3359
+#define	ECHO_FILE	168,3381
+#define	DISCONNECT	169,3403
+#define	FILESTAT	170,3426
+#define	READ	171,3447
+#define	WRITE	172,3464
+#define	LS	173,3482
+#define	CONNECTIONS	174,3497
+#define	ADD_PARAMETER	175,3521
+#define	PARAMETERS	176,3547
+#define	DEL_PARAMETER	177,3570
+#define	SET_VAR	178,3596
+#define	GET_VAR	179,3616
+#define	RMVAR	180,3636
+#define	COMPILE	181,3654
+#define	METHODS	182,3674
+#define	FIND_METHOD	183,3694
+#define	FIND_NEXT_METHOD	184,3718
+#define	LIST_METHOD	185,3747
+#define	DEL_METHOD	186,3771
+#define	PARENTS	187,3794
+#define	CHILDREN	188,3814
+#define	ANCESTORS	189,3835
+#define	HAS_ANCESTOR	190,3857
+#define	SIZE	191,3882
+#define	IDENTS	192,3899
+#define	PACK	193,3918
+#define	UNPACK	194,3935
+#define	DIGESTABLE	195,3954
+#define	DEPENDS	196,3977
+#define	CREATE	197,3997
+#define	CHPARENTS	198,4016
+#define	DESTROY	199,4038
+#define	LOG	200,4058
+#define	CONN_ASSIGN	201,4074
+#define	BINARY_DUMP	202,4098
+#define	BINARY_BACKUP	203,4122
+#define	TEXT_DUMP	204,4148
+#define	RUN_SCRIPT	205,4170
+#define	SHUTDOWN	206,4193
+#define	BIND	207,4214
+#define	UNBIND	208,4231
+#define	CONNECT	209,4250
+#define	SET_HEARTBEAT_FREQ	210,4270
+#define	DATA	211,4301
+#define	SET_NAME	212,4318
+#define	DEL_NAME	213,4339
+#define	DB_TOP	214,4360
+#define	TICK	215,4379
+#define	HOSTNAME	216,4396
+#define	IP	217,4417
+#define	RESUME	218,4432
+#define	SUSPEND	219,4451
+#define	TASKS	220,4471
+#define	CANCEL	221,4489
+#define	PAUSE	222,4508
+#define	CALLERS	223,4526
+#define	DISASSEMBLE	224,4546
+#define	DEBUG	225,4570
+#define	MKRSA	226,4588
+#define	ENRSA	227,4606
+#define	ENIDEA	228,4624
+#define	DEIDEA	229,4643
+#define	MD5	230,4662
+#define	ATOMIC	231,4678
+#define	NON_ATOMIC	232,4697
+#define	LAST_TOKEN	233,4720
+#define _POSIX_SOURCE239,4796
+} YYSTYPE;YYSTYPE274,5483
+#define const279,5551
+#define	YYFINAL	285,5582
+#define	YYFLAG	286,5603
+#define	YYNTBASE	287,5626
+#define YYTRANSLATE(YYTRANSLATE289,5648
+#define	YYLAST	541,21009
+#define alloca 846,41339
+#define yyerrok	882,42464
+#define yyclearin	883,42499
+#define YYEMPTY	884,42536
+#define YYEOF	885,42556
+#define YYACCEPT	886,42573
+#define YYABORT 887,42600
+#define YYERROR	888,42627
+#define YYFAIL	893,42863
+#define YYRECOVERING(YYRECOVERING894,42893
+#define YYBACKUP(YYBACKUP895,42933
+#define YYTERROR	907,43267
+#define YYERRCODE	908,43286
+#define YYLEX	911,43324
+#define YYLEX	917,43408
+#define YYLEX	919,43466
+#define YYLEX	923,43560
+#define YYLEX	925,43609
+#define YYINITDEPTH 955,44327
+#define YYMAXDEPTH 966,44556
+#define __yy_memcpy(__yy_memcpy975,44737
+__yy_memcpy 982,44988
+__yy_memcpy 1000,45341
+#define YYPARSE_PARAM_DECL 1022,45846
+#define YYPARSE_PARAM1024,45900
+#define YYPARSE_PARAM_DECL1025,45922
+yyparse(1029,45961
+#define YYPOPSTACK 1050,46668
+#define YYPOPSTACK 1052,46723
+  if 1702,62274
+  if 1716,62527
+  if 1739,63145
+  if 1800,64547
+  if 1829,65358
+  if 1855,65841
+  else if 1870,66117
+void compiler_error(1917,67029
+int no_errors(1941,67451
+static void yyerror(1946,67507
+
+hton.c,32
+__htonl(17,300
+__htons(23,375
+
+ident.c,423
+#define FWRITE(FWRITE11,197
+#define FREAD(FREAD12,248
+#define MALLOC_DELTA 16,422
+#define INIT_TAB_SIZE 17,445
+typedef struct ident_entry Ident_entry;Ident_entry19,489
+struct ident_entry ident_entry21,530
+int ident_check(41,1267
+void init_ident(51,1410
+void ident_dump(119,3477
+Ident ident_get(126,3616
+void ident_discard(187,5008
+Ident ident_dup(214,5563
+char *ident_name(227,5800
+Ident type2id(232,5854
+
+io.c,545
+#define _POSIX_SOURCE3,31
+#define BUF_SIZE 24,385
+void flush_defunct(38,961
+void handle_io_events(83,1853
+void tell(141,3584
+int boot(151,3836
+int add_server(165,4057
+int remove_server(196,4709
+static void connection_read(210,4922
+static void bkpt(249,5843
+static void connection_write(253,5874
+static Connection *connection_add(283,6624
+void init_io(301,7085
+static void connection_discard(313,7285
+static void pend_discard(328,7668
+static void server_discard(333,7729
+long make_connection(338,7807
+void flush_output(370,8686
+
+ioop.c,257
+#define _POSIX_SOURCE3,56
+#define FILE_BUF_SIZE 20,359
+void op_connections(23,392
+void op_echo(49,864
+void op_echo_file(64,1145
+void op_disconnect(133,2722
+void op_filestat(143,2921
+void op_read(212,4239
+void op_write(309,6414
+void op_ls(392,8237
+
+list.c,896
+#define _POSIX_SOURCE5,188
+#define MALLOC_DELTA	19,648
+#define STARTING_SIZE	20,671
+int list_check(23,729
+static List *prepare_to_modify(52,1890
+List *list_new(97,3450
+List *list_dup(116,3806
+int list_length(122,3873
+Data *list_first(127,3928
+Data *list_next(132,4018
+Data *list_last(138,4160
+Data *list_prev(143,4265
+Data *list_elem(149,4391
+Data *list_empty_spaces(157,4675
+int list_search(163,4809
+int list_cmp(177,5210
+int list_order(200,5739
+List *list_insert(226,6321
+List *list_add(235,6588
+List *list_replace(243,6837
+List *list_delete(255,7216
+List *list_delete_element(279,7972
+List *list_append(287,8135
+List *list_reverse(300,8464
+List *list_setadd(318,8852
+List *list_setremove(325,8979
+List *list_toset(336,9169
+List *list_union(353,9491
+List *list_factor(371,10031
+List *list_qsort(402,10862
+List *list_sublist(409,11069
+void list_discard(415,11263
+
+listop.c,298
+#define _POSIX_SOURCE3,59
+void op_listlen(12,202
+void op_sublist(27,469
+void op_insert(49,1128
+void op_replace(69,1618
+void op_delete(89,2090
+void op_setadd(109,2511
+void op_setremove(123,2807
+void op_toset(137,3114
+void op_qsort(150,3371
+void op_union(163,3628
+void op_factor(177,3909
+
+log.c,116
+#define _POSIX_SOURCE3,61
+void panic(15,260
+void abort(39,706
+void fail_to_start(46,773
+void write_log(63,1077
+
+lookup.c,904
+#define READ_WRITE	18,330
+#define READ_WRITE_EXECUTE	19,370
+#define READ_WRITE 21,433
+#define READ_WRITE_EXECUTE 22,457
+#define NAME_CACHE_SIZE 25,497
+struct name_cache_entry name_cache_entry38,962
+void lookup_open(45,1085
+void lookup_close(60,1413
+void lookup_sync(66,1485
+int lookup_retrieve_dbref(76,1742
+int lookup_store_dbref(92,2085
+int lookup_remove_dbref(107,2424
+long lookup_first_dbref(121,2697
+long lookup_next_dbref(133,2942
+int lookup_retrieve_name(145,3185
+int lookup_store_name(176,3989
+int lookup_remove_name(206,4778
+long lookup_first_name(228,5361
+long lookup_next_name(241,5613
+static datum dbref_key(253,5840
+static datum offset_size_value(267,6148
+static void parse_offset_size_value(285,6567
+static datum name_key(294,6751
+static datum dbref_value(304,6961
+static void sync_name_cache(315,7158
+static int store_name(328,7448
+static int get_name(345,7780
+
+main.c,107
+#define _POSIX_SOURCE3,33
+int main(39,683
+static void initialize(52,949
+static void main_loop(153,3473
+
+match.c,355
+#define _POSIX_SOURCE3,57
+#define MALLOC_DELTA	16,381
+#define FIELD_STARTING_SIZE	17,405
+} Field;Field23,527
+void init_match(33,834
+List *match_template(39,949
+static char *match_coupled_wildcard(141,3420
+static char *match_wildcard(183,4478
+static char *match_word_pattern(257,6135
+static void add_field(310,7687
+List *match_pattern(324,8111
+
+memory.c,779
+#define _POSIX_SOURCE7,318
+#define MAX(MAX30,1249
+#define TRAY_INC	32,1295
+#define NUM_TRAYS	33,1326
+#define MAX_USE_TRAY	34,1346
+#define TRAY_ELEM	35,1390
+#define PILE_BLOCK_SIZE 37,1413
+#define MAX_PILE_BLOCKS 38,1441
+typedef long Align;Align40,1468
+typedef union tlist Tlist;Tlist41,1488
+typedef struct block Block;Block42,1515
+typedef struct oversized Oversized;Oversized43,1543
+union tlist tlist45,1580
+struct pile pile50,1628
+struct block block55,1686
+struct oversized oversized61,1768
+void *emalloc(68,1861
+void *erealloc(83,2076
+void *tmalloc(93,2237
+void tfree(136,3180
+void *trealloc(169,3957
+char *tstrdup(192,4663
+char *tstrndup(206,4874
+void tfree_chars(218,5118
+Pile *new_pile(224,5187
+void *pmalloc(238,5452
+void pfree(272,6274
+
+methodop.c,138
+void op_this(11,187
+void op_definer(33,711
+void op_sender(41,894
+void op_rep(52,1124
+void op_caller(65,1417
+void op_task_id(77,1664
+
+miscop.c,275
+#define _POSIX_SOURCE3,43
+void op_version(19,319
+void op_random(39,768
+void op_time(51,1008
+void op_ctime(60,1121
+static void find_extreme(82,1570
+void op_max(123,2522
+void op_min(128,2566
+void op_abs(133,2611
+void op_get_name(144,2759
+void op_ticks_left(171,3352
+
+net.c,385
+#define _BSD 8,250
+int get_server_socket(54,1291
+int io_event_wait(90,2332
+long non_blocking_iconnect(213,5964
+static long translate_connect_error(262,7118
+String *hostname(283,7405
+String *ip(299,7784
+int get_server_usocket(316,8211
+long non_blocking_uconnect(347,8890
+static int openpty(388,9741
+ long non_blocking_pconnect(448,11058
+long non_blocking_pconnect(539,12867
+
+netpack.c,1323
+#define _POSIX_SOURCE3,53
+static int unpackRaw(22,393
+static Buffer *packRaw(37,639
+static int unpackInt(48,861
+static Buffer *packInt(91,1615
+static unsigned unpackOp(120,2389
+static Buffer *packOp(126,2497
+static Buffer *packType(131,2596
+static long unpackType(136,2680
+static Buffer *packIdent(141,2767
+static long unpackIdent(158,3025
+static Buffer *packString(185,3603
+static String *unpackString(197,3838
+static Buffer *packList(220,4236
+static List *unpackList(230,4435
+static Buffer *packDict(247,4687
+static Dict *unpackDict(256,4855
+static void addRef(279,5263
+static Dbref getRef(322,6469
+static Buffer *packFrob(336,6734
+static Frob *unpackFrob(344,6883
+static Buffer *packData(353,7052
+static Data *unpackData(403,7900
+static Buffer *packStrings(455,8867
+static void unpackStrings(484,9470
+static Buffer *packIdents(496,9726
+static void unpackIdents(521,10264
+static Buffer *packVars(532,10485
+static void unpackVars(561,11105
+static Buffer *packM(583,11559
+static Buffer *packMethod(636,12639
+static Buffer *packMethods(670,13511
+static void unpackM(688,13855
+static Method *unpackMethod(726,14583
+static void unpackMethods(778,15925
+void op_depends(789,16186
+void op_pack(829,17049
+static int refTrans(931,19218
+void op_unpack(973,20214
+void op_digestable(1098,22951
+
+object.c,1785
+#define _POSIX_SOURCE3,47
+#define MALLOC_DELTA	23,484
+#define ANCTEMP_STARTING_SIZE	24,508
+#define VAR_STARTING_SIZE	25,558
+#define METHOD_STARTING_SIZE	26,608
+#define STRING_STARTING_SIZE	27,661
+#define IDENTS_STARTING_SIZE	28,710
+#define METHOD_CACHE_SIZE	29,759
+typedef struct search_params Search_params;Search_params32,822
+struct search_params search_params34,867
+int method_check(73,2156
+int object_check(80,2248
+Object *object_new(111,3004
+void object_free(180,5206
+void object_destroy(227,6687
+static void object_update_parents(269,7862
+List *object_ancestors(290,8346
+static List *object_ancestors_aux(303,8645
+int object_has_ancestor(329,9264
+static int object_has_ancestor_aux(337,9429
+int object_change_parents(374,10197
+int object_add_string(407,11278
+void object_discard_string(453,12483
+String *object_get_string(464,12718
+int object_add_ident(469,12811
+void object_discard_ident(519,14247
+long object_get_ident(534,14674
+long object_add_param(539,14761
+long object_del_param(547,14970
+long object_assign_var(581,16016
+long object_retrieve_var(606,16702
+Var *object_put_var(638,17579
+static Var *object_create_var(653,17959
+static Var *object_find_var(710,19680
+Method *object_find_method(733,20410
+Method *object_find_next_method(792,22040
+static void search_object(844,23566
+static Method *object_find_method_local(902,25287
+static Method *method_cache_check(918,25810
+static void method_cache_set(934,26285
+void object_add_method(950,26816
+int object_del_method(1013,28755
+List *object_list_method(1054,30027
+void method_free(1063,30364
+void method_delete_code_refs(1091,31213
+Method *method_grab(1132,32106
+void method_discard(1138,32186
+void object_text_dump(1149,32378
+static void object_text_dump_aux(1183,33209
+
+objectop.c,475
+void op_add_parameter(14,268
+void op_parameters(33,685
+void op_del_parameter(62,1263
+void op_set_var(80,1647
+void op_get_var(102,2240
+void op_compile(122,2667
+void op_methods(152,3405
+void op_find_method(180,3979
+void op_find_next_method(201,4483
+void op_list_method(223,5071
+void op_del_method(251,5837
+void op_parents(268,6179
+void op_children(278,6362
+void op_ancestors(288,6548
+void op_has_ancestor(302,6828
+void op_size(316,7100
+void op_idents(326,7274
+
+opcodes.c,115
+#define _POSIX_SOURCE3,45
+#define NUM_OPERATORS 11,168
+void init_op_table(247,9777
+int find_function(268,10261
+
+profiling.c,99
+void startTimer(12,363
+double stopTimer(18,497
+void pauseTimer(25,727
+void unpauseTimer(30,815
+
+regexp.c,1154
+#define STRCHR(STRCHR35,1216
+#define STRCMP(STRCMP36,1285
+#define STRNCMP(STRNCMP37,1360
+#define CHAREQ(CHAREQ39,1457
+#define	END	78,3503
+#define	BOL	79,3542
+#define	EOL	80,3596
+#define	ANY	81,3644
+#define	ANYOF	82,3692
+#define	ANYBUT	83,3754
+#define	BRANCH	84,3821
+#define	BACK	85,3888
+#define	EXACTLY	86,3950
+#define	NOTHING	87,3997
+#define	STAR	88,4044
+#define	PLUS	89,4114
+#define	OPEN	90,4184
+#define	CLOSE	92,4284
+#define	OP(OP126,5698
+#define	NEXT(NEXT127,5719
+#define	OPERAND(OPERAND128,5776
+#define	UCHARAT(UCHARAT139,5926
+#define	UCHARAT(UCHARAT141,5980
+#define	FAIL(FAIL144,6028
+#define	ISMULT(ISMULT145,6075
+#define	META	146,6134
+#define	HASWIDTH	151,6205
+#define	SIMPLE	152,6265
+#define	SPSTART	153,6329
+#define	WORST	154,6375
+#define	STATIC	169,6745
+regcomp(201,7839
+reg(288,10025
+regbranch(360,11565
+regpiece(399,12544
+regatom(463,14251
+regnode(572,16336
+regc(597,16664
+reginsert(612,16874
+regtail(641,17321
+regoptail(673,17803
+regexec(712,18524
+regtry(776,19835
+regmatch(813,20721
+regrepeat(1001,24390
+regnext(1047,25137
+regdump(1073,25473
+regprop(1117,26394
+strcspn(1209,27882
+
+sig.c,48
+#define _POSIX_SOURCE3,39
+void init_sig(9,119
+
+string.c,908
+#define _POSIX_SOURCE5,186
+#define MALLOC_DELTA	26,963
+#define STARTING_SIZE	27,1006
+int string_check(32,1133
+String *string_new(40,1248
+String *string_from_chars(58,1621
+String *string_of_char(68,1796
+String *string_dup(78,1966
+int string_length(85,2057
+char *string_chars(91,2137
+void string_pack(97,2229
+String *string_unpack(109,2526
+int string_packed_size(128,2978
+int string_cmp(136,3119
+String *string_fread(142,3278
+String *string_add(149,3486
+String *string_add_chars(159,3782
+String *string_addc(168,4057
+String *string_add_padding(176,4252
+String *string_truncate(194,4753
+String *string_substring(201,4905
+String *string_uppercase(211,5127
+String *string_lowercase(223,5382
+regexp *string_regexp(237,5794
+void string_discard(244,5916
+String *string_parse(254,6059
+String *string_add_unparsed(274,6409
+char *regerror(297,6887
+static String *prepare_to_modify(320,7872
+
+stringop.c,376
+#define _POSIX_SOURCE2,56
+void op_strlen(15,278
+void op_substr(30,549
+void op_explode(54,1314
+void op_strsub(116,2761
+void op_pad(155,3916
+void op_match_begin(200,5185
+void op_match_template(238,6071
+void op_match_pattern(263,6573
+void op_match_regexp(291,7110
+void op_crypt(347,8298
+void op_uppercase(376,8979
+void op_lowercase(387,9165
+void op_strcmp(398,9351
+
+syntaxop.c,1351
+#define _POSIX_SOURCE3,71
+void op_comment(19,350
+void op_pop(30,648
+void op_set_local(35,683
+void op_set_obj_var(48,1013
+void op_if(70,1549
+void op_else(80,1747
+void op_for_range(85,1826
+void op_for_list(117,2708
+void op_while(158,3877
+void op_switch(170,4174
+void op_case_value(177,4336
+void op_case_range(192,4837
+void op_last_case_value(230,6098
+void op_last_case_range(245,6597
+void op_end_case(283,7864
+void op_default(289,7990
+void op_end(295,8078
+void op_break(301,8225
+void op_continue(318,8652
+void op_return(327,8979
+void op_return_expr(339,9301
+void op_catch(377,10329
+void op_catch_end(397,10913
+void op_handler_end(405,11131
+void op_zero(410,11186
+void op_one(416,11250
+void op_integer(422,11312
+void op_string(427,11390
+void op_dbref(436,11568
+void op_symbol(444,11672
+void op_error(453,11843
+void op_name(462,12012
+void op_get_local(476,12313
+void op_get_obj_var(488,12603
+void op_start_args(508,13135
+void op_pass(525,13592
+int op_expr_message(547,14257
+void op_message(620,16477
+void op_list(720,19908
+void op_dict(740,20306
+void op_buffer(767,20859
+void op_frob(789,21357
+void op_index(808,21805
+void op_and(855,23049
+void op_or(866,23281
+void op_splice(877,23510
+void op_critical(898,24052
+void op_critical_end(918,24610
+void op_propagate(923,24676
+void op_propagate_end(943,25240
+
+test.c,16
+void main(3,20
+
+token.c,296
+#define _POSIX_SOURCE3,56
+#define NUM_RESERVED_WORDS 11,175
+#define SUBSCRIPT(SUBSCRIPT12,253
+void init_token(71,1622
+void lex_start(88,1957
+int is_valid_ident(95,2095
+int yylex(106,2271
+int cur_lineno(235,5361
+static char *string_token(240,5412
+static char *identifier_token(266,5987
+
+util.c,703
+#define _POSIX_SOURCE3,34
+#define FORMAT_BUF_INITIAL_LENGTH 25,430
+#define MAX_SCRATCH 26,467
+void init_util(38,673
+unsigned long hash(49,877
+unsigned long hash_case(65,1153
+long atoln(82,1471
+char *long_to_ascii(91,1599
+int strccmp(113,1958
+int strnccmp(121,2149
+char *strcchr(129,2347
+char *strcstr(138,2480
+long random_number(154,2910
+char *crypt_string(170,3155
+String *vformat(184,3432
+String *format(262,5052
+void fformat(273,5209
+String *fgetstring(287,5419
+char *english_type(311,5833
+char *english_integer(327,6265
+long parse_ident(339,6539
+FILE *open_scratch_file(359,6908
+void close_scratch_file(375,7161
+void init_scratch_file(381,7242
+static void claim_fd(389,7340
+
+buffer.h,235
+#define BUFFER_H4,64
+typedef struct buffer Buffer;Buffer6,82
+struct buffer buffer10,132
+#define buffer_align(buffer_align29,750
+#define buffer_align_len(buffer_align_len30,844
+#define buffer_align_new(buffer_align_new31,917
+
+cache.h,21
+#define CACHE_H4,67
+
+cmstring.h,93
+#define STRING_H4,70
+typedef struct string String;String6,88
+struct string string11,159
+
+code_prv.h,459
+#define CODE_PRV_H4,84
+typedef union instr Instr;Instr6,104
+typedef struct handler_positions Handler_positions;Handler_positions7,131
+union instr instr14,381
+struct prog prog24,687
+struct arguments arguments31,788
+struct stmt stmt36,845
+struct expr expr87,1460
+struct case_entry case_entry163,2399
+struct id_list id_list169,2484
+struct stmt_list stmt_list175,2557
+struct expr_list expr_list180,2617
+struct case_list case_list185,2677
+
+codegen.h,452
+#define CODEGEN_H4,83
+typedef struct prog		Prog;Prog6,102
+typedef struct arguments	Arguments;Arguments7,129
+typedef struct stmt		Stmt;Stmt8,165
+typedef struct expr		Expr;Expr9,192
+typedef struct case_entry	Case_entry;Case_entry10,219
+typedef struct id_list		Id_list;Id_list11,257
+typedef struct stmt_list	Stmt_list;Stmt_list12,290
+typedef struct expr_list	Expr_list;Expr_list13,326
+typedef struct case_list	Case_list;Case_list14,362
+
+config.h,576
+#define CONFIG_H4,88
+#define VERSION_MAJOR	10,211
+#define VERSION_MINOR	11,235
+#define VERSION_BUGFIX	12,260
+#define METHOD_TICKS	15,352
+#define PAUSED_METHOD_TICKS 18,453
+#define MAX_CALL_DEPTH	21,528
+#define CACHE_WIDTH	24,620
+#define CACHE_DEPTH	25,643
+#define DEFAULT_INDENT	28,709
+#define MAX_DATA_DISPLAY 31,813
+#define SYSTEM_DBREF	33,842
+#define ROOT_DBREF	34,865
+#define DEB_PROFILE 43,1128
+#define DEB_CALL 44,1150
+#define DEB_ERROR 45,1169
+#define DEB_MESSAGE 46,1189
+#define DEB_OPCODE 47,1211
+#define DEB_VAR 48,1233
+#define DEB_STACK 49,1252
+
+crypt.h,21
+#define CRYPT_H2,16
+
+data.h,210
+#define DATA_H4,57
+typedef struct frob Frob;Frob6,73
+typedef struct data Data;Data7,99
+#define OCTET_VALUE(OCTET_VALUE18,354
+struct data data20,419
+struct frob frob35,603
+#define DATA_H_DONE54,1139
+
+db.h,24
+#define DBMCHUNK_H4,78
+
+dbpack.h,22
+#define DBPACK_H4,84
+
+decode.h,22
+#define DECODE_H4,72
+
+dict.h,81
+#define DICT_H4,65
+typedef struct dict Dict;Dict6,81
+struct dict dict10,127
+
+dump.h,20
+#define DUMP_H4,79
+
+execute.h,574
+#define EXECUTE_H4,74
+typedef struct frame Frame;Frame6,93
+typedef struct error_action_specifier Error_action_specifier;Error_action_specifier7,121
+typedef struct handler_info Handler_info;Handler_info8,183
+typedef struct vmstate VMState;VMState9,225
+typedef struct vmstack VMStack;VMStack10,257
+#define STACK_MALLOC_DELTA 20,527
+#define ARG_STACK_MALLOC_DELTA 21,556
+struct vmstack vmstack23,590
+struct vmstate vmstate30,690
+struct frame frame41,899
+struct error_action_specifier error_action_specifier60,1332
+struct handler_info handler_info82,1755
+
+grammar.h,23
+#define GRAMMAR_H4,65
+
+ident.h,80
+#define IDENT_H4,78
+#define NOT_AN_IDENT 6,95
+typedef long Ident;Ident8,120
+
+io.h,258
+#define IO_H4,68
+typedef struct connection Connection;Connection6,82
+typedef struct server Server;Server7,120
+typedef struct pending Pending;Pending8,150
+struct connection connection13,224
+struct server server27,738
+struct pending pending38,936
+
+list.h,115
+typedef struct list List;List8,243
+#define DID_LIST_TYPEDEF9,269
+#define LIST_H17,356
+struct list list19,372
+
+log.h,19
+#define LOG_H4,73
+
+lookup.h,22
+#define LOOKUP_H4,62
+
+match.h,21
+#define MATCH_H4,70
+
+memory.h,409
+#define MEMORY_H4,77
+typedef struct pile Pile;Pile6,95
+#define EMALLOC(EMALLOC24,549
+#define EREALLOC(EREALLOC25,618
+#define TMALLOC(TMALLOC26,698
+#define TFREE(TFREE27,767
+#define TREALLOC(TREALLOC28,828
+#define PMALLOC(PMALLOC30,943
+#define MEMCPY(MEMCPY32,1024
+#define MEMMOVE(MEMMOVE35,1096
+#define MEMCMP(MEMCMP36,1153
+#define MEMMOVE(MEMMOVE38,1215
+#define MEMCMP(MEMCMP39,1274
+
+net.h,19
+#define NET_H4,63
+
+netpack.h,44
+#define DBPACK_H4,84
+} bFILE;bFILE17,344
+
+object.h,695
+typedef long Dbref;Dbref7,213
+#define DID_DBREF_TYPEDEF8,233
+#define OBJECT_H16,323
+typedef struct object		Object;Object18,341
+typedef struct string_entry	String_entry;String_entry19,372
+typedef struct ident_entry	Ident_entry;Ident_entry20,414
+typedef struct var		Var;Var21,454
+typedef struct method		Method;Method22,479
+typedef struct error_list	Error_list;Error_list23,510
+typedef int			Object_string;Object_string24,548
+typedef int			Object_ident;Object_ident25,577
+struct object object30,644
+struct string_entry string_entry90,2532
+struct ident_entry ident_entry96,2636
+struct var var101,2689
+struct method method108,2768
+struct error_list error_list124,3068
+
+opcodes.h,99
+#define OPCODES_H4,72
+typedef struct op_info Op_info;Op_info6,91
+struct op_info op_info10,144
+
+operator.h,159
+#define OPERATOR_H4,61
+#define op_mkRSA 235,5411
+#define op_enRSA 236,5434
+#define op_enIDEA 237,5457
+#define op_deIDEA 238,5481
+#define op_MD5 239,5505
+
+regexp.h,120
+#define REGEXP_H9,170
+typedef struct regexp regexp;regexp11,188
+#define NSUBEXP 13,219
+struct regexp regexp14,239
+
+regmagic.h,21
+#define	MAGIC	5,134
+
+sig.h,22
+#define SIGNAL_H4,85
+
+token.h,21
+#define TOKEN_H4,60
+
+util.h,148
+#define UTIL_H4,66
+#define NUMBER_BUF_SIZE 6,82
+typedef char Number_buf[Number_buf7,109
+#define LCASE(LCASE13,214
+#define UCASE(UCASE14,250
+
+x.tab.h,5857
+} YYSTYPE;YYSTYPE12,258
+#define	INTEGER	13,269
+#define	DBREF	14,289
+#define	COMMENT	15,307
+#define	STRING	16,327
+#define	SYMBOL	17,346
+#define	NAME	18,365
+#define	IDENT	19,382
+#define	ERROR	20,400
+#define	DISALLOW_OVERRIDES	21,418
+#define	ARG	22,449
+#define	VAR	23,465
+#define	IF	24,481
+#define	FOR	25,496
+#define	IN	26,512
+#define	UPTO	27,527
+#define	WHILE	28,544
+#define	SWITCH	29,562
+#define	CASE	30,581
+#define	DEFAULT	31,598
+#define	BREAK	32,618
+#define	CONTINUE	33,636
+#define	RETURN	34,657
+#define	CATCH	35,676
+#define	ANY	36,694
+#define	HANDLER	37,710
+#define	FORK	38,730
+#define	PASS	39,747
+#define	CRITLEFT	40,764
+#define	CRITRIGHT	41,785
+#define	PROPLEFT	42,807
+#define	PROPRIGHT	43,828
+#define	TO	44,850
+#define	OR	45,865
+#define	AND	46,880
+#define	EQ	47,896
+#define	NE	48,911
+#define	GE	49,926
+#define	LE	50,941
+#define	START_DICT	51,956
+#define	START_BUFFER	52,979
+#define	LOWER_THAN_ELSE	53,1004
+#define	ELSE	54,1032
+#define	LOWER_THAN_WITH	55,1049
+#define	WITH	56,1077
+#define	NOOP	57,1094
+#define	EXPR	58,1111
+#define	COMPOUND	59,1128
+#define	ASSIGN	60,1149
+#define	IF_ELSE	61,1168
+#define	FOR_RANGE	62,1188
+#define	FOR_LIST	63,1210
+#define	END	64,1231
+#define	RETURN_EXPR	65,1247
+#define	CASE_VALUE	66,1271
+#define	CASE_RANGE	67,1294
+#define	LAST_CASE_VALUE	68,1317
+#define	LAST_CASE_RANGE	69,1345
+#define	END_CASE	70,1373
+#define	RANGE	71,1394
+#define	FUNCTION_CALL	72,1412
+#define	MESSAGE	73,1438
+#define	EXPR_MESSAGE	74,1458
+#define	LIST	75,1483
+#define	DICT	76,1500
+#define	BUFFER	77,1517
+#define	FROB	78,1536
+#define	INDEX	79,1553
+#define	UNARY	80,1571
+#define	BINARY	81,1589
+#define	CONDITIONAL	82,1608
+#define	SPLICE	83,1632
+#define	NEG	84,1651
+#define	SPLICE_ADD	85,1667
+#define	POP	86,1690
+#define	START_ARGS	87,1706
+#define	ZERO	88,1729
+#define	ONE	89,1746
+#define	SET_LOCAL	90,1762
+#define	SET_OBJ_VAR	91,1784
+#define	GET_LOCAL	92,1808
+#define	GET_OBJ_VAR	93,1830
+#define	CATCH_END	94,1854
+#define	HANDLER_END	95,1876
+#define	CRITICAL	96,1900
+#define	CRITICAL_END	97,1921
+#define	PROPAGATE	98,1946
+#define	PROPAGATE_END	99,1968
+#define	JUMP	100,1994
+#define	BITAND	101,2011
+#define	BITOR	102,2030
+#define	BITSHIFT	103,2048
+#define	TYPE	104,2069
+#define	CLASS	105,2086
+#define	TOINT	106,2104
+#define	TOSTR	107,2122
+#define	TOLITERAL	108,2140
+#define	TODBREF	109,2162
+#define	TOSYM	110,2182
+#define	TOERR	111,2200
+#define	VALID	112,2218
+#define	STRLEN	113,2236
+#define	SUBSTR	114,2255
+#define	EXPLODE	115,2274
+#define	STRSUB	116,2294
+#define	PAD	117,2313
+#define	MATCH_BEGIN	118,2329
+#define	MATCH_TEMPLATE	119,2353
+#define	MATCH_PATTERN	120,2380
+#define	MATCH_REGEXP	121,2406
+#define	CRYPT	122,2431
+#define	UPPERCASE	123,2449
+#define	LOWERCASE	124,2471
+#define	STRCMP	125,2493
+#define	LISTLEN	126,2512
+#define	SUBLIST	127,2532
+#define	INSERT	128,2552
+#define	REPLACE	129,2571
+#define	DELETE	130,2591
+#define	SETADD	131,2610
+#define	SETREMOVE	132,2629
+#define	TOSET	133,2651
+#define	UNION	134,2669
+#define	FACTOR	135,2687
+#define	QSORT	136,2706
+#define	DICT_KEYS	137,2724
+#define	DICT_ADD	138,2746
+#define	DICT_DEL	139,2767
+#define	DICT_ADD_ELEM	140,2788
+#define	DICT_DEL_ELEM	141,2814
+#define	DICT_CONTAINS	142,2840
+#define	BUFFER_LEN	143,2866
+#define	BUFFER_RETRIEVE	144,2889
+#define	BUFFER_APPEND	145,2917
+#define	BUFFER_REPLACE	146,2943
+#define	BUFFER_ADD	147,2970
+#define	BUFFER_TRUNCATE	148,2993
+#define	BUFFER_TO_STRINGS	149,3021
+#define	BUFFER_FROM_STRINGS	150,3051
+#define	VERSION	151,3083
+#define	RANDOM	152,3103
+#define	TIME	153,3122
+#define	CTIME	154,3139
+#define	MIN	155,3157
+#define	MAX	156,3173
+#define	ABS	157,3189
+#define	GET_NAME	158,3205
+#define	THIS	159,3226
+#define	DEFINER	160,3243
+#define	SENDER	161,3263
+#define	CALLER	162,3282
+#define	TASK_ID	163,3301
+#define	REP	164,3321
+#define	TICKS_LEFT	165,3337
+#define	ERROR_FUNC	166,3360
+#define	TRACEBACK	167,3383
+#define	ERROR_STR	168,3405
+#define	ERROR_ARG	169,3427
+#define	THROW	170,3449
+#define	RETHROW	171,3467
+#define	ECHO_FUNC	172,3487
+#define	ECHO_FILE	173,3509
+#define	DISCONNECT	174,3531
+#define	FILESTAT	175,3554
+#define	READ	176,3575
+#define	WRITE	177,3592
+#define	LS	178,3610
+#define	CONNECTIONS	179,3625
+#define	ADD_PARAMETER	180,3649
+#define	PARAMETERS	181,3675
+#define	DEL_PARAMETER	182,3698
+#define	SET_VAR	183,3724
+#define	GET_VAR	184,3744
+#define	RMVAR	185,3764
+#define	COMPILE	186,3782
+#define	METHODS	187,3802
+#define	FIND_METHOD	188,3822
+#define	FIND_NEXT_METHOD	189,3846
+#define	LIST_METHOD	190,3875
+#define	DEL_METHOD	191,3899
+#define	PARENTS	192,3922
+#define	CHILDREN	193,3942
+#define	ANCESTORS	194,3963
+#define	HAS_ANCESTOR	195,3985
+#define	SIZE	196,4010
+#define	IDENTS	197,4027
+#define	PACK	198,4046
+#define	UNPACK	199,4063
+#define	DIGESTABLE	200,4082
+#define	DEPENDS	201,4105
+#define	CREATE	202,4125
+#define	CHPARENTS	203,4144
+#define	DESTROY	204,4166
+#define	LOG	205,4186
+#define	CONN_ASSIGN	206,4202
+#define	BINARY_DUMP	207,4226
+#define	BINARY_BACKUP	208,4250
+#define	TEXT_DUMP	209,4276
+#define	RUN_SCRIPT	210,4298
+#define	SHUTDOWN	211,4321
+#define	BIND	212,4342
+#define	UNBIND	213,4359
+#define	CONNECT	214,4378
+#define	SET_HEARTBEAT_FREQ	215,4398
+#define	DATA	216,4429
+#define	SET_NAME	217,4446
+#define	DEL_NAME	218,4467
+#define	DB_TOP	219,4488
+#define	TICK	220,4507
+#define	HOSTNAME	221,4524
+#define	IP	222,4545
+#define	RESUME	223,4560
+#define	SUSPEND	224,4579
+#define	TASKS	225,4599
+#define	CANCEL	226,4617
+#define	PAUSE	227,4636
+#define	CALLERS	228,4654
+#define	DISASSEMBLE	229,4674
+#define	DEBUG	230,4698
+#define	MKRSA	231,4716
+#define	ENRSA	232,4734
+#define	ENIDEA	233,4752
+#define	DEIDEA	234,4771
+#define	MD5	235,4790
+#define	ATOMIC	236,4806
+#define	NON_ATOMIC	237,4825
+#define	LAST_TOKEN	238,4848
+
+y.tab.h,5857
+} YYSTYPE;YYSTYPE12,258
+#define	INTEGER	13,269
+#define	DBREF	14,289
+#define	COMMENT	15,307
+#define	STRING	16,327
+#define	SYMBOL	17,346
+#define	NAME	18,365
+#define	IDENT	19,382
+#define	ERROR	20,400
+#define	DISALLOW_OVERRIDES	21,418
+#define	ARG	22,449
+#define	VAR	23,465
+#define	IF	24,481
+#define	FOR	25,496
+#define	IN	26,512
+#define	UPTO	27,527
+#define	WHILE	28,544
+#define	SWITCH	29,562
+#define	CASE	30,581
+#define	DEFAULT	31,598
+#define	BREAK	32,618
+#define	CONTINUE	33,636
+#define	RETURN	34,657
+#define	CATCH	35,676
+#define	ANY	36,694
+#define	HANDLER	37,710
+#define	FORK	38,730
+#define	PASS	39,747
+#define	CRITLEFT	40,764
+#define	CRITRIGHT	41,785
+#define	PROPLEFT	42,807
+#define	PROPRIGHT	43,828
+#define	TO	44,850
+#define	OR	45,865
+#define	AND	46,880
+#define	EQ	47,896
+#define	NE	48,911
+#define	GE	49,926
+#define	LE	50,941
+#define	START_DICT	51,956
+#define	START_BUFFER	52,979
+#define	LOWER_THAN_ELSE	53,1004
+#define	ELSE	54,1032
+#define	LOWER_THAN_WITH	55,1049
+#define	WITH	56,1077
+#define	NOOP	57,1094
+#define	EXPR	58,1111
+#define	COMPOUND	59,1128
+#define	ASSIGN	60,1149
+#define	IF_ELSE	61,1168
+#define	FOR_RANGE	62,1188
+#define	FOR_LIST	63,1210
+#define	END	64,1231
+#define	RETURN_EXPR	65,1247
+#define	CASE_VALUE	66,1271
+#define	CASE_RANGE	67,1294
+#define	LAST_CASE_VALUE	68,1317
+#define	LAST_CASE_RANGE	69,1345
+#define	END_CASE	70,1373
+#define	RANGE	71,1394
+#define	FUNCTION_CALL	72,1412
+#define	MESSAGE	73,1438
+#define	EXPR_MESSAGE	74,1458
+#define	LIST	75,1483
+#define	DICT	76,1500
+#define	BUFFER	77,1517
+#define	FROB	78,1536
+#define	INDEX	79,1553
+#define	UNARY	80,1571
+#define	BINARY	81,1589
+#define	CONDITIONAL	82,1608
+#define	SPLICE	83,1632
+#define	NEG	84,1651
+#define	SPLICE_ADD	85,1667
+#define	POP	86,1690
+#define	START_ARGS	87,1706
+#define	ZERO	88,1729
+#define	ONE	89,1746
+#define	SET_LOCAL	90,1762
+#define	SET_OBJ_VAR	91,1784
+#define	GET_LOCAL	92,1808
+#define	GET_OBJ_VAR	93,1830
+#define	CATCH_END	94,1854
+#define	HANDLER_END	95,1876
+#define	CRITICAL	96,1900
+#define	CRITICAL_END	97,1921
+#define	PROPAGATE	98,1946
+#define	PROPAGATE_END	99,1968
+#define	JUMP	100,1994
+#define	BITAND	101,2011
+#define	BITOR	102,2030
+#define	BITSHIFT	103,2048
+#define	TYPE	104,2069
+#define	CLASS	105,2086
+#define	TOINT	106,2104
+#define	TOSTR	107,2122
+#define	TOLITERAL	108,2140
+#define	TODBREF	109,2162
+#define	TOSYM	110,2182
+#define	TOERR	111,2200
+#define	VALID	112,2218
+#define	STRLEN	113,2236
+#define	SUBSTR	114,2255
+#define	EXPLODE	115,2274
+#define	STRSUB	116,2294
+#define	PAD	117,2313
+#define	MATCH_BEGIN	118,2329
+#define	MATCH_TEMPLATE	119,2353
+#define	MATCH_PATTERN	120,2380
+#define	MATCH_REGEXP	121,2406
+#define	CRYPT	122,2431
+#define	UPPERCASE	123,2449
+#define	LOWERCASE	124,2471
+#define	STRCMP	125,2493
+#define	LISTLEN	126,2512
+#define	SUBLIST	127,2532
+#define	INSERT	128,2552
+#define	REPLACE	129,2571
+#define	DELETE	130,2591
+#define	SETADD	131,2610
+#define	SETREMOVE	132,2629
+#define	TOSET	133,2651
+#define	UNION	134,2669
+#define	FACTOR	135,2687
+#define	QSORT	136,2706
+#define	DICT_KEYS	137,2724
+#define	DICT_ADD	138,2746
+#define	DICT_DEL	139,2767
+#define	DICT_ADD_ELEM	140,2788
+#define	DICT_DEL_ELEM	141,2814
+#define	DICT_CONTAINS	142,2840
+#define	BUFFER_LEN	143,2866
+#define	BUFFER_RETRIEVE	144,2889
+#define	BUFFER_APPEND	145,2917
+#define	BUFFER_REPLACE	146,2943
+#define	BUFFER_ADD	147,2970
+#define	BUFFER_TRUNCATE	148,2993
+#define	BUFFER_TO_STRINGS	149,3021
+#define	BUFFER_FROM_STRINGS	150,3051
+#define	VERSION	151,3083
+#define	RANDOM	152,3103
+#define	TIME	153,3122
+#define	CTIME	154,3139
+#define	MIN	155,3157
+#define	MAX	156,3173
+#define	ABS	157,3189
+#define	GET_NAME	158,3205
+#define	THIS	159,3226
+#define	DEFINER	160,3243
+#define	SENDER	161,3263
+#define	CALLER	162,3282
+#define	TASK_ID	163,3301
+#define	REP	164,3321
+#define	TICKS_LEFT	165,3337
+#define	ERROR_FUNC	166,3360
+#define	TRACEBACK	167,3383
+#define	ERROR_STR	168,3405
+#define	ERROR_ARG	169,3427
+#define	THROW	170,3449
+#define	RETHROW	171,3467
+#define	ECHO_FUNC	172,3487
+#define	ECHO_FILE	173,3509
+#define	DISCONNECT	174,3531
+#define	FILESTAT	175,3554
+#define	READ	176,3575
+#define	WRITE	177,3592
+#define	LS	178,3610
+#define	CONNECTIONS	179,3625
+#define	ADD_PARAMETER	180,3649
+#define	PARAMETERS	181,3675
+#define	DEL_PARAMETER	182,3698
+#define	SET_VAR	183,3724
+#define	GET_VAR	184,3744
+#define	RMVAR	185,3764
+#define	COMPILE	186,3782
+#define	METHODS	187,3802
+#define	FIND_METHOD	188,3822
+#define	FIND_NEXT_METHOD	189,3846
+#define	LIST_METHOD	190,3875
+#define	DEL_METHOD	191,3899
+#define	PARENTS	192,3922
+#define	CHILDREN	193,3942
+#define	ANCESTORS	194,3963
+#define	HAS_ANCESTOR	195,3985
+#define	SIZE	196,4010
+#define	IDENTS	197,4027
+#define	PACK	198,4046
+#define	UNPACK	199,4063
+#define	DIGESTABLE	200,4082
+#define	DEPENDS	201,4105
+#define	CREATE	202,4125
+#define	CHPARENTS	203,4144
+#define	DESTROY	204,4166
+#define	LOG	205,4186
+#define	CONN_ASSIGN	206,4202
+#define	BINARY_DUMP	207,4226
+#define	BINARY_BACKUP	208,4250
+#define	TEXT_DUMP	209,4276
+#define	RUN_SCRIPT	210,4298
+#define	SHUTDOWN	211,4321
+#define	BIND	212,4342
+#define	UNBIND	213,4359
+#define	CONNECT	214,4378
+#define	SET_HEARTBEAT_FREQ	215,4398
+#define	DATA	216,4429
+#define	SET_NAME	217,4446
+#define	DEL_NAME	218,4467
+#define	DB_TOP	219,4488
+#define	TICK	220,4507
+#define	HOSTNAME	221,4524
+#define	IP	222,4545
+#define	RESUME	223,4560
+#define	SUSPEND	224,4579
+#define	TASKS	225,4599
+#define	CANCEL	226,4617
+#define	PAUSE	227,4636
+#define	CALLERS	228,4654
+#define	DISASSEMBLE	229,4674
+#define	DEBUG	230,4698
+#define	MKRSA	231,4716
+#define	ENRSA	232,4734
+#define	ENIDEA	233,4752
+#define	DEIDEA	234,4771
+#define	MD5	235,4790
+#define	ATOMIC	236,4806
+#define	NON_ATOMIC	237,4825
+#define	LAST_TOKEN	238,4848

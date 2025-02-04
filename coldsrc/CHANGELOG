@@ -1,0 +1,4 @@
+0.13.4
+
+Added binary_backup command - much faster than textdump for backups.
+

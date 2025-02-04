@@ -1,0 +1,21 @@
+13.0
+	- pack and unpack functions
+	- bytecode interpreter
+
+13.1
+	- bytecode used only for packed form (PROVISIONAL)
+	- .parse() called with no arguments for empty transmit buffer
+	- textdump(string) filename (PROVISIONAL)
+	- allow object references to be $host$object
+
+13.4
+	- a child's uninitialised var has the definer's value
+	  if you want to encapsulate a parent's parameter, you must initialise it in init_*
+
+	- experimental:  object error handling for server errors.
+
+	when some selected errors are raised, the data deemed to be in error by the server is sent
+	an 'error message, and the return value of this opcode is spliced into the stack in its
+	place.
+
+	
